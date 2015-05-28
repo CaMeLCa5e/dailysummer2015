@@ -13,4 +13,14 @@ app = Flask(__name__)
 app.config.from_object(__name__)
 
 db = shelve.open(path.join(app.root_path, app.config['SHELVE_DB'])
-					protocol=HIGHEST_PROTOCOL.)
+					protocol=HIGHEST_PROTOCOL, writeback=True)
+
+@app.route('/<message>')
+def write_and_list(message): 
+	db.setdefault('messages', [])
+	db['messages'].append(message)
+	return app.response_class('\n'.join(db['messages']),
+								mimetype='text/plain')
+
+with closing(db): 
+	app.run()

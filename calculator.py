@@ -13,6 +13,7 @@ while loop == 1:
 	print "5) quit"
 	print " "
 
+	choice = input("choose an option")
 	if choice == 1: 
 		add1 = input("Add this: ")
 		add2 = input("to this: ")

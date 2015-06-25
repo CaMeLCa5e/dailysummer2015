@@ -1,0 +1,4114 @@
+intro(1)--Introduction to user commands
+
+ldd(1)--print shared library dependencies
+
+time(1)--time a simple command or give resource usage
+
+accept(2)--accept a connection on a socket
+
+accept4(2)--accept a connection on a socket
+
+access(2)--check real user's permissions for a file
+
+acct(2)--switch process accounting on or off
+
+adjtimex(2)--tune kernel clock
+
+afs_syscall(2)--unimplemented system calls
+
+alarm(2)--set an alarm clock for delivery of a signal
+
+alloc_hugepages(2)--allocate or free huge pages
+
+arch_prctl(2)--set architecture-specific thread state
+
+bdflush(2)--start, flush, or tune buffer-dirty-flush daemon
+
+bind(2)--bind a name to a socket
+
+break(2)--unimplemented system calls
+
+brk(2)--change data segment size
+
+cacheflush(2)--flush contents of instruction and/or data cache
+
+capget(2)--set/get capabilities of thread(s)
+
+capset(2)--set/get capabilities of thread(s)
+
+chdir(2)--change working directory
+
+chmod(2)--change permissions of a file
+
+chown(2)--change ownership of a file
+
+chown32(2)--change ownership of a file
+
+chroot(2)--change root directory
+
+clock_getres(2)--clock and time functions
+
+clock_gettime(2)--clock and time functions
+
+clock_nanosleep(2)--high-resolution sleep with specifiable clock
+
+clock_settime(2)--clock and time functions
+
+clone(2)--create a child process
+
+clone2(2)--create a child process
+
+__clone2(2)--create a child process
+
+close(2)--close a file descriptor
+
+connect(2)--initiate a connection on a socket
+
+creat(2)--open and possibly create a file or device
+
+create_module(2)--create a loadable module entry
+
+delete_module(2)--delete a loadable module entry
+
+dup(2)--duplicate a file descriptor
+
+dup2(2)--duplicate a file descriptor
+
+dup3(2)--duplicate a file descriptor
+
+epoll_create(2)--open an epoll file descriptor
+
+epoll_create1(2)--open an epoll file descriptor
+
+epoll_ctl(2)--control interface for an epoll descriptor
+
+epoll_pwait(2)--wait for an I/O event on an epoll file descriptor
+
+epoll_wait(2)--wait for an I/O event on an epoll file descriptor
+
+eventfd(2)--create a file descriptor for event notification
+
+eventfd2(2)--create a file descriptor for event notification
+
+execve(2)--execute program
+
+exit(2)--terminate the calling process
+
+_Exit(2)--terminate the calling process
+
+_exit(2)--terminate the calling process
+
+exit_group(2)--exit all threads in a process
+
+faccessat(2)--check user's permissions of a file relative to a directory file descriptor
+
+fadvise64(2)--predeclare an access pattern for file data
+
+fadvise64_64(2)--predeclare an access pattern for file data
+
+fallocate(2)--manipulate file space
+
+fchdir(2)--change working directory
+
+fchmod(2)--change permissions of a file
+
+fchmodat(2)--change permissions of a file relative to a directory file descriptor
+
+fchown(2)--change ownership of a file
+
+fchown32(2)--change ownership of a file
+
+fchownat(2)--change ownership of a file relative to a directory file descriptor
+
+fcntl(2)--manipulate file descriptor
+
+fcntl64(2)--manipulate file descriptor
+
+fdatasync(2)--synchronize a file's in-core state with storage device
+
+fgetxattr(2)--retrieve an extended attribute value
+
+flistxattr(2)--list extended attribute names
+
+flock(2)--apply or remove an advisory lock on an open file
+
+fork(2)--create a child process
+
+free_hugepages(2)--allocate or free huge pages
+
+fremovexattr(2)--remove an extended attribute
+
+fsetxattr(2)--set an extended attribute value
+
+fstat(2)--get file status
+
+fstat64(2)--get file status
+
+fstatat(2)--get file status relative to a directory file descriptor
+
+fstatat64(2)--get file status relative to a directory file descriptor
+
+fstatfs(2)--get file system statistics
+
+fstatfs64(2)--get file system statistics
+
+fstatvfs(2)--get file system statistics
+
+fsync(2)--synchronize a file's in-core state with storage device
+
+ftruncate(2)--truncate a file to a specified length
+
+ftruncate64(2)--truncate a file to a specified length
+
+futex(2)--Fast Userspace Locking system call
+
+futimesat(2)--change timestamps of a file relative to a directory file descriptor
+
+getcontext(2)--get or set the user context
+
+getcpu(2)--determine CPU and NUMA node on which the calling thread is running
+
+getcwd(2)--Get current working directory
+
+getdents(2)--get directory entries
+
+getdents64(2)--get directory entries
+
+getdomainname(2)--get/set domain name
+
+getdtablesize(2)--get descriptor table size
+
+getegid(2)--get group identity
+
+getegid32(2)--get group identity
+
+geteuid(2)--get user identity
+
+geteuid32(2)--get user identity
+
+getgid(2)--get group identity
+
+getgid32(2)--get group identity
+
+getgroups(2)--get/set list of supplementary group IDs
+
+getgroups32(2)--get/set list of supplementary group IDs
+
+gethostid(2)--get or set the unique identifier of the current host
+
+gethostname(2)--get/set hostname
+
+getitimer(2)--get or set value of an interval timer
+
+get_kernel_syms(2)--retrieve exported kernel and module symbols
+
+get_mempolicy(2)--Retrieve NUMA memory policy for a process
+
+getpagesize(2)--get memory page size
+
+getpeername(2)--get name of connected peer socket
+
+getpgid(2)--set/get process group
+
+getpgrp(2)--set/get process group
+
+getpid(2)--get process identification
+
+getpmsg(2)--unimplemented system calls
+
+getppid(2)--get process identification
+
+getpriority(2)--get/set program scheduling priority
+
+getresgid(2)--get real, effective and saved user/group IDs
+
+getresgid32(2)--get real, effective and saved user/group IDs
+
+getresuid(2)--get real, effective and saved user/group IDs
+
+getresuid32(2)--get real, effective and saved user/group IDs
+
+getrlimit(2)--get/set resource limits
+
+getrusage(2)--get resource usage
+
+getsid(2)--get session ID
+
+getsockname(2)--get socket name
+
+getsockopt(2)--get and set options on sockets
+
+get_thread_area(2)--Get a Thread Local Storage (TLS) area
+
+gettid(2)--get thread identification
+
+gettimeofday(2)--get / set time
+
+getuid(2)--get user identity
+
+getuid32(2)--get user identity
+
+getxattr(2)--retrieve an extended attribute value
+
+gtty(2)--unimplemented system calls
+
+idle(2)--make process 0 idle
+
+inb(2)--port I/O
+
+inb_p(2)--port I/O
+
+init_module(2)--initialize a loadable module entry
+
+inl(2)--port I/O
+
+inl_p(2)--port I/O
+
+inotify_add_watch(2)--add a watch to an initialized inotify instance
+
+inotify_init(2)--initialize an inotify instance
+
+inotify_init1(2)--initialize an inotify instance
+
+inotify_rm_watch(2)--remove an existing watch from an inotify instance
+
+insb(2)--port I/O
+
+insl(2)--port I/O
+
+insw(2)--port I/O
+
+intro(2)--Introduction to system calls
+
+inw(2)--port I/O
+
+inw_p(2)--port I/O
+
+io_cancel(2)--cancel an outstanding asynchronous I/O operation
+
+ioctl(2)--control device
+
+ioctl_list(2)--list of ioctl calls in Linux/i386 kernel
+
+io_destroy(2)--destroy an asynchronous I/O context
+
+io_getevents(2)--read asynchronous I/O events from the completion queue
+
+ioperm(2)--set port input/output permissions
+
+iopl(2)--change I/O privilege level
+
+ioprio_get(2)--get/set I/O scheduling class and priority
+
+ioprio_set(2)--get/set I/O scheduling class and priority
+
+io_setup(2)--create an asynchronous I/O context
+
+io_submit(2)--submit asynchronous I/O blocks for processing
+
+ipc(2)--System V IPC system calls
+
+kill(2)--send signal to a process
+
+killpg(2)--send signal to a process group
+
+lchown(2)--change ownership of a file
+
+lchown32(2)--change ownership of a file
+
+lgetxattr(2)--retrieve an extended attribute value
+
+link(2)--make a new name for a file
+
+linkat(2)--create a file link relative to directory file descriptors
+
+listen(2)--listen for connections on a socket
+
+listxattr(2)--list extended attribute names
+
+llistxattr(2)--list extended attribute names
+
+llseek(2)--reposition read/write file offset
+
+_llseek(2)--reposition read/write file offset
+
+lock(2)--unimplemented system calls
+
+lookup_dcookie(2)--return a directory entry's path
+
+lremovexattr(2)--remove an extended attribute
+
+lseek(2)--reposition read/write file offset
+
+lsetxattr(2)--set an extended attribute value
+
+lstat(2)--get file status
+
+lstat64(2)--get file status
+
+madvise(2)--give advice about use of memory
+
+madvise1(2)--unimplemented system calls
+
+mbind(2)--Set memory policy for a memory range
+
+mincore(2)--determine whether pages are resident in memory
+
+mkdir(2)--create a directory
+
+mkdirat(2)--create a directory relative to a directory file descriptor
+
+mknod(2)--create a special or ordinary file
+
+mknodat(2)--create a special or ordinary file relative to a directory file descriptor
+
+mlock(2)--lock and unlock memory
+
+mlockall(2)--lock and unlock memory
+
+mmap(2)--map or unmap files or devices into memory
+
+mmap2(2)--map files or devices into memory
+
+modify_ldt(2)--get or set ldt
+
+mount(2)--mount file system
+
+move_pages(2)--move individual pages of a process to another node
+
+mprotect(2)--set protection on a region of memory
+
+mpx(2)--unimplemented system calls
+
+mq_getsetattr(2)--get/set message queue attributes
+
+mq_notify(2)--register for notification when a message is available
+
+mq_open(2)--open a message queue
+
+mq_timedreceive(2)--receive a message from a message queue
+
+mq_timedsend(2)--send a message to a message queue
+
+mq_unlink(2)--remove a message queue
+
+mremap(2)--re-map a virtual memory address
+
+msgctl(2)--message control operations
+
+msgget(2)--get a message queue identifier
+
+msgop(2)--message operations
+
+msgrcv(2)--message operations
+
+msgsnd(2)--message operations
+
+msync(2)--synchronize a file with a memory map
+
+munlock(2)--lock and unlock memory
+
+munlockall(2)--lock and unlock memory
+
+munmap(2)--map or unmap files or devices into memory
+
+nanosleep(2)--high-resolution sleep
+
+_newselect(2)--synchronous I/O multiplexing
+
+nfsservctl(2)--syscall interface to kernel nfs daemon
+
+nice(2)--change process priority
+
+oldfstat(2)--get file status
+
+oldlstat(2)--get file status
+
+oldolduname(2)--get name and information about current kernel
+
+oldstat(2)--get file status
+
+olduname(2)--get name and information about current kernel
+
+open(2)--open and possibly create a file or device
+
+openat(2)--open a file relative to a directory file descriptor
+
+outb(2)--port I/O
+
+outb_p(2)--port I/O
+
+outl(2)--port I/O
+
+outl_p(2)--port I/O
+
+outsb(2)--port I/O
+
+outsl(2)--port I/O
+
+outsw(2)--port I/O
+
+outw(2)--port I/O
+
+outw_p(2)--port I/O
+
+path_resolution(2)--find the file referred to by a filename
+
+pause(2)--wait for signal
+
+pciconfig_iobase(2)--pci device information handling
+
+pciconfig_read(2)--pci device information handling
+
+pciconfig_write(2)--pci device information handling
+
+personality(2)--set the process execution domain
+
+pipe(2)--create pipe
+
+pipe2(2)--create pipe
+
+pivot_root(2)--change the root file system
+
+poll(2)--wait for some event on a file descriptor
+
+posix_fadvise(2)--predeclare an access pattern for file data
+
+ppoll(2)--wait for some event on a file descriptor
+
+prctl(2)--operations on a process
+
+pread(2)--read from or write to a file descriptor at a given offset
+
+pread64(2)--read from or write to a file descriptor at a given offset
+
+prof(2)--unimplemented system calls
+
+pselect(2)--synchronous I/O multiplexing
+
+pselect6(2)--synchronous I/O multiplexing
+
+ptrace(2)--process trace
+
+putpmsg(2)--unimplemented system calls
+
+pwrite(2)--read from or write to a file descriptor at a given offset
+
+pwrite64(2)--read from or write to a file descriptor at a given offset
+
+query_module(2)--query the kernel for various bits pertaining to modules
+
+quotactl(2)--manipulate disk quota
+
+read(2)--read from a file descriptor
+
+readahead(2)--perform file readahead into page cache
+
+readdir(2)--read directory entry
+
+readlink(2)--read value of a symbolic link
+
+readlinkat(2)--read value of a symbolic link relative to a directory file descriptor
+
+readv(2)--read or write data into multiple buffers
+
+reboot(2)--reboot or enable/disable Ctrl-Alt-Del
+
+recv(2)--receive a message from a socket
+
+recvfrom(2)--receive a message from a socket
+
+recvmsg(2)--receive a message from a socket
+
+remap_file_pages(2)--create a non-linear file mapping
+
+removexattr(2)--remove an extended attribute
+
+rename(2)--change the name or location of a file
+
+renameat(2)--rename a file relative to directory file descriptors
+
+rmdir(2)--delete a directory
+
+rt_sigaction(2)--examine and change a signal action
+
+rt_sigpending(2)--examine pending signals
+
+rt_sigprocmask(2)--examine and change blocked signals
+
+rt_sigqueueinfo(2)--queue a signal and data to a process
+
+rt_sigreturn(2)--return from signal handler and cleanup stack frame
+
+rt_sigsuspend(2)--wait for a signal
+
+rt_sigtimedwait(2)--synchronously wait for queued signals
+
+sbrk(2)--change data segment size
+
+sched_getaffinity(2)-- set and get a process's CPU affinity mask
+
+sched_getparam(2)--set and get scheduling parameters
+
+sched_get_priority_max(2)--get static priority range
+
+sched_get_priority_min(2)--get static priority range
+
+sched_getscheduler(2)--set and get scheduling policy/parameters
+
+sched_rr_get_interval(2)--get the SCHED_RR interval for the named process
+
+sched_setaffinity(2)-- set and get a process's CPU affinity mask
+
+sched_setparam(2)--set and get scheduling parameters
+
+sched_setscheduler(2)--set and get scheduling policy/parameters
+
+sched_yield(2)--yield the processor
+
+security(2)--unimplemented system calls
+
+select(2)--synchronous I/O multiplexing
+
+select_tut(2)--synchronous I/O multiplexing
+
+semctl(2)--semaphore control operations
+
+semget(2)--get a semaphore set identifier
+
+semop(2)--semaphore operations
+
+semtimedop(2)--semaphore operations
+
+send(2)--send a message on a socket
+
+sendfile(2)--transfer data between file descriptors
+
+sendfile64(2)--transfer data between file descriptors
+
+sendmsg(2)--send a message on a socket
+
+sendto(2)--send a message on a socket
+
+setcontext(2)--get or set the user context
+
+setdomainname(2)--get/set domain name
+
+setegid(2)--set effective user or group ID
+
+seteuid(2)--set effective user or group ID
+
+setfsgid(2)--set group identity used for file system checks
+
+setfsgid32(2)--set group identity used for file system checks
+
+setfsuid(2)--set user identity used for file system checks
+
+setfsuid32(2)--set user identity used for file system checks
+
+setgid(2)--set group identity
+
+setgid32(2)--set group identity
+
+setgroups(2)--get/set list of supplementary group IDs
+
+setgroups32(2)--get/set list of supplementary group IDs
+
+sethostid(2)--get or set the unique identifier of the current host
+
+sethostname(2)--get/set hostname
+
+setitimer(2)--get or set value of an interval timer
+
+set_mempolicy(2)--set default NUMA memory policy for a process and its children
+
+setpgid(2)--set/get process group
+
+setpgrp(2)--set/get process group
+
+setpriority(2)--get/set program scheduling priority
+
+setregid(2)--set real and/or effective user or group ID
+
+setregid32(2)--set real and/or effective user or group ID
+
+setresgid(2)--set real, effective and saved user or group ID
+
+setresgid32(2)--set real, effective and saved user or group ID
+
+setresuid(2)--set real, effective and saved user or group ID
+
+setresuid32(2)--set real, effective and saved user or group ID
+
+setreuid(2)--set real and/or effective user or group ID
+
+setreuid32(2)--set real and/or effective user or group ID
+
+setrlimit(2)--get/set resource limits
+
+setsid(2)--creates a session and sets the process group ID
+
+setsockopt(2)--get and set options on sockets
+
+set_thread_area(2)--Set a Thread Local Storage (TLS) area
+
+set_tid_address(2)--set pointer to thread ID
+
+settimeofday(2)--get / set time
+
+setuid(2)--set user identity
+
+setuid32(2)--set user identity
+
+setup(2)--setup devices and file systems, mount root file system
+
+setxattr(2)--set an extended attribute value
+
+sgetmask(2)--manipulation of signal mask (obsolete)
+
+shmat(2)--shared memory operations
+
+shmctl(2)--shared memory control
+
+shmdt(2)--shared memory operations
+
+shmget(2)--allocates a shared memory segment
+
+shmop(2)--shared memory operations
+
+shutdown(2)--shut down part of a full-duplex connection
+
+sigaction(2)--examine and change a signal action
+
+sigaltstack(2)--set and/or get signal stack context
+
+signal(2)--ANSI C signal handling
+
+signalfd(2)--create a file descriptor for accepting signals
+
+signalfd4(2)--create a file descriptor for accepting signals
+
+sigpending(2)--examine pending signals
+
+sigprocmask(2)--examine and change blocked signals
+
+sigqueue(2)--queue a signal and data to a process
+
+sigreturn(2)--return from signal handler and cleanup stack frame
+
+sigsuspend(2)--wait for a signal
+
+sigtimedwait(2)--synchronously wait for queued signals
+
+sigwaitinfo(2)--synchronously wait for queued signals
+
+socket(2)--create an endpoint for communication
+
+socketcall(2)--socket system calls
+
+socketpair(2)--create a pair of connected sockets
+
+splice(2)--splice data to/from a pipe
+
+spu_create(2)--create a new spu context
+
+spu_run(2)--execute an SPU context
+
+ssetmask(2)--manipulation of signal mask (obsolete)
+
+stat(2)--get file status
+
+stat64(2)--get file status
+
+statfs(2)--get file system statistics
+
+statfs64(2)--get file system statistics
+
+statvfs(2)--get file system statistics
+
+stime(2)--set time
+
+stty(2)--unimplemented system calls
+
+swapoff(2)--start/stop swapping to file/device
+
+swapon(2)--start/stop swapping to file/device
+
+symlink(2)--make a new name for a file
+
+symlinkat(2)--create a symbolic link relative to a directory file descriptor
+
+sync(2)--commit buffer cache to disk
+
+sync_file_range(2)--sync a file segment with disk
+
+syscall(2)--indirect system call
+
+_syscall(2)--invoking a system call without library support (OBSOLETE)
+
+syscalls(2)--Linux system calls
+
+sysctl(2)--read/write system parameters
+
+_sysctl(2)--read/write system parameters
+
+sysfs(2)--get file system type information
+
+sysinfo(2)--returns information on overall system statistics
+
+syslog(2)--read and/or clear kernel message ring buffer; set console_loglevel
+
+tee(2)--duplicating pipe content
+
+tgkill(2)--send a signal to a thread
+
+time(2)--get time in seconds
+
+timer_create(2)--create a POSIX per-process timer
+
+timer_delete(2)--delete a POSIX per-process timer
+
+timerfd_create(2)--timers that notify via file descriptors
+
+timerfd_gettime(2)--timers that notify via file descriptors
+
+timerfd_settime(2)--timers that notify via file descriptors
+
+timer_getoverrun(2)--get overrun count for a POSIX per-process timer
+
+timer_gettime(2)--arm/disarm and fetch state of POSIX per-process timer
+
+timer_settime(2)--arm/disarm and fetch state of POSIX per-process timer
+
+times(2)--get process times
+
+tkill(2)--send a signal to a thread
+
+truncate(2)--truncate a file to a specified length
+
+truncate64(2)--truncate a file to a specified length
+
+tuxcall(2)--unimplemented system calls
+
+ugetrlimit(2)--get/set resource limits
+
+umask(2)--set file mode creation mask
+
+umount(2)--unmount file system
+
+umount2(2)--unmount file system
+
+uname(2)--get name and information about current kernel
+
+unimplemented(2)--unimplemented system calls
+
+unlink(2)--delete a name and possibly the file it refers to
+
+unlinkat(2)--remove a directory entry relative to a directory file descriptor
+
+unshare(2)--disassociate parts of the process execution context
+
+uselib(2)--load shared library
+
+ustat(2)--get file system statistics
+
+utime(2)--change file last access and modification times
+
+utimensat(2)--change file timestamps with nanosecond precision
+
+utimes(2)--change file last access and modification times
+
+vfork(2)--create a child process and block parent
+
+vhangup(2)--virtually hangup the current tty
+
+vm86(2)--enter virtual 8086 mode
+
+vm86old(2)--enter virtual 8086 mode
+
+vmsplice(2)--splice user pages into a pipe
+
+vserver(2)--unimplemented system calls
+
+wait(2)--wait for process to change state
+
+wait3(2)--wait for process to change state, BSD style
+
+wait4(2)--wait for process to change state, BSD style
+
+waitid(2)--wait for process to change state
+
+waitpid(2)--wait for process to change state
+
+write(2)--write to a file descriptor
+
+writev(2)--read or write data into multiple buffers
+
+a64l(3)--convert between long and base-64
+
+abort(3)--cause abnormal process termination
+
+abs(3)--compute the absolute value of an integer
+
+acos(3)--arc cosine function
+
+acosf(3)--arc cosine function
+
+acosh(3)--inverse hyperbolic cosine function
+
+acoshf(3)--inverse hyperbolic cosine function
+
+acoshl(3)--inverse hyperbolic cosine function
+
+acosl(3)--arc cosine function
+
+addmntent(3)--get file system descriptor file entry
+
+addseverity(3)--introduce new severity classes
+
+adjtime(3)--correct the time to synchronize the system clock
+
+aio_cancel(3)--cancel an outstanding asynchronous I/O request
+
+aio_error(3)--get error status of asynchronous I/O operation
+
+aio_fsync(3)--asynchronous file synchronization
+
+aio_read(3)--asynchronous read
+
+aio_return(3)--get return status of asynchronous I/O operation
+
+aio_suspend(3)--wait for asynchronous I/O operation or timeout
+
+aio_write(3)--asynchronous write
+
+alloca(3)--allocate memory that is automatically freed
+
+alphasort(3)--scan a directory for matching entries
+
+argz(3)--functions to handle an argz list
+
+argz_add(3)--functions to handle an argz list
+
+argz_add_sep(3)--functions to handle an argz list
+
+argz_append(3)--functions to handle an argz list
+
+argz_count(3)--functions to handle an argz list
+
+argz_create(3)--functions to handle an argz list
+
+argz_create_sep(3)--functions to handle an argz list
+
+argz_delete(3)--functions to handle an argz list
+
+argz_extract(3)--functions to handle an argz list
+
+argz_insert(3)--functions to handle an argz list
+
+argz_next(3)--functions to handle an argz list
+
+argz_replace(3)--functions to handle an argz list
+
+argz_stringify(3)--functions to handle an argz list
+
+asctime(3)--transform date and time to broken-down time or ASCII
+
+asctime_r(3)--transform date and time to broken-down time or ASCII
+
+asin(3)--arc sine function
+
+asinf(3)--arc sine function
+
+asinh(3)--inverse hyperbolic sine function
+
+asinhf(3)--inverse hyperbolic sine function
+
+asinhl(3)--inverse hyperbolic sine function
+
+asinl(3)--arc sine function
+
+asprintf(3)--print to allocated string
+
+assert(3)--abort the program if assertion is false
+
+assert_perror(3)--test errnum and abort
+
+atan(3)--arc tangent function
+
+atan2(3)--arc tangent function of two variables
+
+atan2f(3)--arc tangent function of two variables
+
+atan2l(3)--arc tangent function of two variables
+
+atanf(3)--arc tangent function
+
+atanh(3)--inverse hyperbolic tangent function
+
+atanhf(3)--inverse hyperbolic tangent function
+
+atanhl(3)--inverse hyperbolic tangent function
+
+atanl(3)--arc tangent function
+
+atexit(3)--register a function to be called at normal process termination
+
+atof(3)--convert a string to a double
+
+atoi(3)--convert a string to an integer
+
+atol(3)--convert a string to an integer
+
+atoll(3)--convert a string to an integer
+
+atoq(3)--convert a string to an integer
+
+auth_destroy(3)--library routines for remote procedure calls
+
+authnone_create(3)--library routines for remote procedure calls
+
+authunix_create(3)--library routines for remote procedure calls
+
+authunix_create_default(3)--library routines for remote procedure calls
+
+backtrace(3)--support for application self-debugging
+
+backtrace_symbols(3)--support for application self-debugging
+
+backtrace_symbols_fd(3)--support for application self-debugging
+
+basename(3)--parse pathname components
+
+bcmp(3)--compare byte sequences
+
+bcopy(3)--copy byte sequence
+
+be16toh(3)--convert values between host and big-/little-endian byte order
+
+be32toh(3)--convert values between host and big-/little-endian byte order
+
+be64toh(3)--convert values between host and big-/little-endian byte order
+
+bindresvport(3)--bind a socket to a privileged IP port
+
+bsd_signal(3)--signal handling with BSD semantics
+
+bsearch(3)--binary search of a sorted array
+
+bstring(3)--byte string operations
+
+btowc(3)--convert single byte to wide character
+
+btree(3)--btree database access method
+
+byteorder(3)--convert values between host and network byte order
+
+bzero(3)--write zero-valued bytes
+
+cabs(3)--absolute value of a complex number
+
+cabsf(3)--absolute value of a complex number
+
+cabsl(3)--absolute value of a complex number
+
+cacos(3)--complex arc cosine
+
+cacosf(3)--complex arc cosine
+
+cacosh(3)--complex arc hyperbolic cosine
+
+cacoshf(3)--complex arc hyperbolic cosine
+
+cacoshl(3)--complex arc hyperbolic cosine
+
+cacosl(3)--complex arc cosine
+
+calloc(3)--Allocate and free dynamic memory
+
+callrpc(3)--library routines for remote procedure calls
+
+canonicalize_file_name(3)-- return the canonicalized filename
+
+carg(3)--calculate the argument
+
+cargf(3)--calculate the argument
+
+cargl(3)--calculate the argument
+
+casin(3)--complex arc sine
+
+casinf(3)--complex arc sine
+
+casinh(3)--complex arc sine hyperbolic
+
+casinhf(3)--complex arc sine hyperbolic
+
+casinhl(3)--complex arc sine hyperbolic
+
+casinl(3)--complex arc sine
+
+catan(3)--complex arc tangents
+
+catanf(3)--complex arc tangents
+
+catanh(3)--complex arc tangents hyperbolic
+
+catanhf(3)--complex arc tangents hyperbolic
+
+catanhl(3)--complex arc tangents hyperbolic
+
+catanl(3)--complex arc tangents
+
+catclose(3)--open/close a message catalog
+
+catgets(3)--get message from a message catalog
+
+catopen(3)--open/close a message catalog
+
+cbc_crypt(3)--fast DES encryption
+
+cbrt(3)--cube root function
+
+cbrtf(3)--cube root function
+
+cbrtl(3)--cube root function
+
+ccos(3)--complex cosine function
+
+ccosf(3)--complex cosine function
+
+ccosh(3)--complex hyperbolic cosine
+
+ccoshf(3)--complex hyperbolic cosine
+
+ccoshl(3)--complex hyperbolic cosine
+
+ccosl(3)--complex cosine function
+
+ceil(3)--ceiling function: smallest integral value not less than argument
+
+ceilf(3)--ceiling function: smallest integral value not less than argument
+
+ceill(3)--ceiling function: smallest integral value not less than argument
+
+cerf(3)--complex error function
+
+cerfc(3)--complex error function
+
+cerfcf(3)--complex error function
+
+cerfcl(3)--complex error function
+
+cerff(3)--complex error function
+
+cerfl(3)--complex error function
+
+cexp(3)--complex exponential function
+
+cexp2(3)--base-2 exponent of a complex number
+
+cexp2f(3)--base-2 exponent of a complex number
+
+cexp2l(3)--base-2 exponent of a complex number
+
+cexpf(3)--complex exponential function
+
+cexpl(3)--complex exponential function
+
+cfgetispeed(3)--get and set terminal attributes, line control, get and set baud rate
+
+cfgetospeed(3)--get and set terminal attributes, line control, get and set baud rate
+
+cfmakeraw(3)--get and set terminal attributes, line control, get and set baud rate
+
+cfree(3)--free allocated memory
+
+cfsetispeed(3)--get and set terminal attributes, line control, get and set baud rate
+
+cfsetospeed(3)--get and set terminal attributes, line control, get and set baud rate
+
+cfsetspeed(3)--get and set terminal attributes, line control, get and set baud rate
+
+cimag(3)--get imaginary part of a complex number
+
+cimagf(3)--get imaginary part of a complex number
+
+cimagl(3)--get imaginary part of a complex number
+
+clearenv(3)--clear the environment
+
+clearerr(3)--check and reset stream status
+
+clearerr_unlocked(3)--non-locking stdio functions
+
+clnt_broadcast(3)--library routines for remote procedure calls
+
+clnt_call(3)--library routines for remote procedure calls
+
+clnt_control(3)--library routines for remote procedure calls
+
+clnt_create(3)--library routines for remote procedure calls
+
+clnt_destroy(3)--library routines for remote procedure calls
+
+clnt_freeres(3)--library routines for remote procedure calls
+
+clnt_geterr(3)--library routines for remote procedure calls
+
+clnt_pcreateerror(3)--library routines for remote procedure calls
+
+clnt_perrno(3)--library routines for remote procedure calls
+
+clnt_perror(3)--library routines for remote procedure calls
+
+clntraw_create(3)--library routines for remote procedure calls
+
+clnt_spcreateerror(3)--library routines for remote procedure calls
+
+clnt_sperrno(3)--library routines for remote procedure calls
+
+clnt_sperror(3)--library routines for remote procedure calls
+
+clnttcp_create(3)--library routines for remote procedure calls
+
+clntudp_bufcreate(3)--library routines for remote procedure calls
+
+clntudp_create(3)--library routines for remote procedure calls
+
+clock(3)--Determine processor time
+
+clock_getcpuclockid(3)--obtain ID of a process CPU-time clock
+
+clock_getres(3)--clock and time functions
+
+clock_gettime(3)--clock and time functions
+
+clock_settime(3)--clock and time functions
+
+clog(3)--natural logarithm of a complex number
+
+clog10(3)--base-10 logarithm of a complex number
+
+clog10f(3)--base-10 logarithm of a complex number
+
+clog10l(3)--base-10 logarithm of a complex number
+
+clog2(3)--base-2 logarithm of a complex number
+
+clog2f(3)--base-2 logarithm of a complex number
+
+clog2l(3)--base-2 logarithm of a complex number
+
+clogf(3)--natural logarithm of a complex number
+
+clogl(3)--natural logarithm of a complex number
+
+closedir(3)--close a directory
+
+closelog(3)--send messages to the system logger
+
+cmsg(3)--Access ancillary data
+
+CMSG_ALIGN(3)--Access ancillary data
+
+CMSG_FIRSTHDR(3)--Access ancillary data
+
+CMSG_NXTHDR(3)--Access ancillary data
+
+CMSG_SPACE(3)--Access ancillary data
+
+confstr(3)--get configuration dependent string variables
+
+conj(3)--calculate the complex conjugate
+
+conjf(3)--calculate the complex conjugate
+
+conjl(3)--calculate the complex conjugate
+
+copysign(3)--copy sign of a number
+
+copysignf(3)--copy sign of a number
+
+copysignl(3)--copy sign of a number
+
+cos(3)--cosine function
+
+cosf(3)--cosine function
+
+cosh(3)--hyperbolic cosine function
+
+coshf(3)--hyperbolic cosine function
+
+coshl(3)--hyperbolic cosine function
+
+cosl(3)--cosine function
+
+cpow(3)--complex power function
+
+cpowf(3)--complex power function
+
+cpowl(3)--complex power function
+
+cproj(3)--project into Riemann Sphere
+
+cprojf(3)--project into Riemann Sphere
+
+cprojl(3)--project into Riemann Sphere
+
+CPU_ALLOC(3)--macros for manipulating CPU sets
+
+CPU_ALLOC_SIZE(3)--macros for manipulating CPU sets
+
+CPU_AND(3)--macros for manipulating CPU sets
+
+CPU_AND_S(3)--macros for manipulating CPU sets
+
+CPU_CLR(3)--macros for manipulating CPU sets
+
+CPU_CLR_S(3)--macros for manipulating CPU sets
+
+CPU_COUNT(3)--macros for manipulating CPU sets
+
+CPU_COUNT_S(3)--macros for manipulating CPU sets
+
+CPU_EQUAL(3)--macros for manipulating CPU sets
+
+CPU_EQUAL_S(3)--macros for manipulating CPU sets
+
+CPU_FREE(3)--macros for manipulating CPU sets
+
+CPU_ISSET(3)--macros for manipulating CPU sets
+
+CPU_ISSET_S(3)--macros for manipulating CPU sets
+
+CPU_OR(3)--macros for manipulating CPU sets
+
+CPU_OR_S(3)--macros for manipulating CPU sets
+
+CPU_SET(3)--macros for manipulating CPU sets
+
+CPU_SET_S(3)--macros for manipulating CPU sets
+
+CPU_XOR(3)--macros for manipulating CPU sets
+
+CPU_XOR_S(3)--macros for manipulating CPU sets
+
+CPU_ZERO(3)--macros for manipulating CPU sets
+
+CPU_ZERO_S(3)--macros for manipulating CPU sets
+
+creal(3)--get real part of a complex number
+
+crealf(3)--get real part of a complex number
+
+creall(3)--get real part of a complex number
+
+crypt(3)--password and data encryption
+
+crypt_r(3)--password and data encryption
+
+csin(3)--complex sine function
+
+csinf(3)--complex sine function
+
+csinh(3)--complex hyperbolic sine
+
+csinhf(3)--complex hyperbolic sine
+
+csinhl(3)--complex hyperbolic sine
+
+csinl(3)--complex sine function
+
+csqrt(3)--complex square root
+
+csqrtf(3)--complex square root
+
+csqrtl(3)--complex square root
+
+ctan(3)--complex tangent function
+
+ctanf(3)--complex tangent function
+
+ctanh(3)--complex hyperbolic tangent
+
+ctanhf(3)--complex hyperbolic tangent
+
+ctanhl(3)--complex hyperbolic tangent
+
+ctanl(3)--complex tangent function
+
+ctermid(3)--get controlling terminal name
+
+ctime(3)--transform date and time to broken-down time or ASCII
+
+ctime_r(3)--transform date and time to broken-down time or ASCII
+
+cuserid(3)--get username
+
+daemon(3)--run in the background
+
+daylight(3)--initialize time conversion information
+
+db(3)--database access methods
+
+dbopen(3)--database access methods
+
+des_crypt(3)--fast DES encryption
+
+des_setparity(3)--fast DES encryption
+
+difftime(3)--calculate time difference
+
+dirfd(3)--get directory stream file descriptor
+
+dirname(3)--parse pathname components
+
+div(3)--compute quotient and remainder of an integer division
+
+dladdr(3)--programming interface to dynamic linking loader
+
+dlclose(3)--programming interface to dynamic linking loader
+
+dlerror(3)--programming interface to dynamic linking loader
+
+dl_iterate_phdr(3)--walk through list of shared objects
+
+dlopen(3)--programming interface to dynamic linking loader
+
+dlsym(3)--programming interface to dynamic linking loader
+
+dlvsym(3)--programming interface to dynamic linking loader
+
+dn_comp(3)--resolver routines
+
+dn_expand(3)--resolver routines
+
+dprintf(3)--print to a file descriptor
+
+drand48(3)--generate uniformly distributed pseudo-random numbers
+
+drand48_r(3)--generate uniformly distributed pseudo-random numbers reentrantly
+
+drem(3)-- floating-point remainder function
+
+dremf(3)-- floating-point remainder function
+
+dreml(3)-- floating-point remainder function
+
+dysize(3)--get number of days for a given year
+
+eaccess(3)--check effective user's permissions for a file
+
+ecb_crypt(3)--fast DES encryption
+
+ecvt(3)--convert a floating-point number to a string
+
+ecvt_r(3)--convert a floating-point number to a string
+
+edata(3)--end of program segments
+
+encrypt(3)--encrypt 64-bit messages
+
+encrypt_r(3)--encrypt 64-bit messages
+
+end(3)--end of program segments
+
+endaliasent(3)--read an alias entry
+
+endfsent(3)--handle fstab entries
+
+endgrent(3)--get group file entry
+
+endhostent(3)--get network host entry
+
+endian(3)--convert values between host and big-/little-endian byte order
+
+endmntent(3)--get file system descriptor file entry
+
+endnetent(3)--get network entry
+
+endnetgrent(3)--handle network group entries
+
+endprotoent(3)--get protocol entry
+
+endpwent(3)--get password file entry
+
+endrpcent(3)--get RPC entry
+
+endservent(3)--get service entry
+
+endspent(3)--get shadow password file entry
+
+endttyent(3)--get ttys file entry
+
+endusershell(3)--get permitted user shells
+
+endutent(3)--access utmp file entries
+
+endutxent(3)--access utmp file entries
+
+envz(3)--environment string support
+
+envz_add(3)--environment string support
+
+envz_entry(3)--environment string support
+
+envz_get(3)--environment string support
+
+envz_merge(3)--environment string support
+
+envz_remove(3)--environment string support
+
+envz_strip(3)--environment string support
+
+erand48(3)--generate uniformly distributed pseudo-random numbers
+
+erand48_r(3)--generate uniformly distributed pseudo-random numbers reentrantly
+
+erf(3)--error function
+
+erfc(3)--complementary error function
+
+erfcf(3)--complementary error function
+
+erfcl(3)--complementary error function
+
+erff(3)--error function
+
+erfl(3)--error function
+
+err(3)--formatted error messages
+
+errno(3)--number of last error
+
+error(3)--glibc error reporting functions
+
+error_at_line(3)--glibc error reporting functions
+
+error_message_count(3)--glibc error reporting functions
+
+error_on_per_line(3)--glibc error reporting functions
+
+error_print_progname(3)--glibc error reporting functions
+
+errx(3)--formatted error messages
+
+etext(3)--end of program segments
+
+ether_aton(3)--Ethernet address manipulation routines
+
+ether_aton_r(3)--Ethernet address manipulation routines
+
+ether_hostton(3)--Ethernet address manipulation routines
+
+ether_line(3)--Ethernet address manipulation routines
+
+ether_ntoa(3)--Ethernet address manipulation routines
+
+ether_ntoa_r(3)--Ethernet address manipulation routines
+
+ether_ntohost(3)--Ethernet address manipulation routines
+
+euidaccess(3)--check effective user's permissions for a file
+
+eventfd_read(3)--create a file descriptor for event notification
+
+eventfd_write(3)--create a file descriptor for event notification
+
+exec(3)--execute a file
+
+execl(3)--execute a file
+
+execle(3)--execute a file
+
+execlp(3)--execute a file
+
+execv(3)--execute a file
+
+execvp(3)--execute a file
+
+exit(3)--cause normal process termination
+
+exp(3)--base-e exponential function
+
+exp10(3)--base-10 exponential function
+
+exp10f(3)--base-10 exponential function
+
+exp10l(3)--base-10 exponential function
+
+exp2(3)--base-2 exponential function
+
+exp2f(3)--base-2 exponential function
+
+exp2l(3)--base-2 exponential function
+
+expf(3)--base-e exponential function
+
+expl(3)--base-e exponential function
+
+expm1(3)--exponential minus 1
+
+expm1f(3)--exponential minus 1
+
+expm1l(3)--exponential minus 1
+
+fabs(3)--absolute value of floating-point number
+
+fabsf(3)--absolute value of floating-point number
+
+fabsl(3)--absolute value of floating-point number
+
+__fbufsize(3)--interfaces to stdio FILE structure
+
+fclose(3)--close a stream
+
+fcloseall(3)--close all open streams
+
+fcvt(3)--convert a floating-point number to a string
+
+fcvt_r(3)--convert a floating-point number to a string
+
+FD_CLR(3)--synchronous I/O multiplexing
+
+fdim(3)--positive difference
+
+fdimf(3)--positive difference
+
+fdiml(3)--positive difference
+
+FD_ISSET(3)--synchronous I/O multiplexing
+
+fdopen(3)--stream open functions
+
+fdopendir(3)--open a directory
+
+FD_SET(3)--synchronous I/O multiplexing
+
+FD_ZERO(3)--synchronous I/O multiplexing
+
+feclearexcept(3)--floating-point rounding and exception handling
+
+fedisableexcept(3)--floating-point rounding and exception handling
+
+feenableexcept(3)--floating-point rounding and exception handling
+
+fegetenv(3)--floating-point rounding and exception handling
+
+fegetexcept(3)--floating-point rounding and exception handling
+
+fegetexceptflag(3)--floating-point rounding and exception handling
+
+fegetround(3)--floating-point rounding and exception handling
+
+feholdexcept(3)--floating-point rounding and exception handling
+
+fenv(3)--floating-point rounding and exception handling
+
+feof(3)--check and reset stream status
+
+feof_unlocked(3)--non-locking stdio functions
+
+feraiseexcept(3)--floating-point rounding and exception handling
+
+ferror(3)--check and reset stream status
+
+ferror_unlocked(3)--non-locking stdio functions
+
+fesetenv(3)--floating-point rounding and exception handling
+
+fesetexceptflag(3)--floating-point rounding and exception handling
+
+fesetround(3)--floating-point rounding and exception handling
+
+fetestexcept(3)--floating-point rounding and exception handling
+
+feupdateenv(3)--floating-point rounding and exception handling
+
+fexecve(3)--execute program specified via file descriptor
+
+fflush(3)--flush a stream
+
+fflush_unlocked(3)--non-locking stdio functions
+
+ffs(3)--find first bit set in a word
+
+ffsl(3)--find first bit set in a word
+
+ffsll(3)--find first bit set in a word
+
+fgetc(3)--input of characters and strings
+
+fgetc_unlocked(3)--non-locking stdio functions
+
+fgetgrent(3)--get group file entry
+
+fgetgrent_r(3)--get group file entry reentrantly
+
+fgetpos(3)--reposition a stream
+
+fgetpwent(3)--get password file entry
+
+fgetpwent_r(3)--get passwd file entry reentrantly
+
+fgets(3)--input of characters and strings
+
+fgetspent(3)--get shadow password file entry
+
+fgetspent_r(3)--get shadow password file entry
+
+fgets_unlocked(3)--non-locking stdio functions
+
+fgetwc(3)--read a wide character from a FILE stream
+
+fgetwc_unlocked(3)--non-locking stdio functions
+
+fgetws(3)--read a wide-character string from a FILE stream
+
+fgetws_unlocked(3)--non-locking stdio functions
+
+fileno(3)--check and reset stream status
+
+fileno_unlocked(3)--non-locking stdio functions
+
+finite(3)--BSD floating-point classification functions
+
+finitef(3)--BSD floating-point classification functions
+
+finitel(3)--BSD floating-point classification functions
+
+__flbf(3)--interfaces to stdio FILE structure
+
+flockfile(3)--lock FILE for stdio
+
+floor(3)--largest integral value not greater than argument
+
+floorf(3)--largest integral value not greater than argument
+
+floorl(3)--largest integral value not greater than argument
+
+_flushlbf(3)--interfaces to stdio FILE structure
+
+fma(3)--floating-point multiply and add
+
+fmaf(3)--floating-point multiply and add
+
+fmal(3)--floating-point multiply and add
+
+fmax(3)--determine maximum of two floating-point numbers
+
+fmaxf(3)--determine maximum of two floating-point numbers
+
+fmaxl(3)--determine maximum of two floating-point numbers
+
+fmemopen(3)-- open memory as stream
+
+fmin(3)--determine minimum of two floating-point numbers
+
+fminf(3)--determine minimum of two floating-point numbers
+
+fminl(3)--determine minimum of two floating-point numbers
+
+fmod(3)--floating-point remainder function
+
+fmodf(3)--floating-point remainder function
+
+fmodl(3)--floating-point remainder function
+
+fmtmsg(3)--print formatted error messages
+
+fnmatch(3)--match filename or pathname
+
+fopen(3)--stream open functions
+
+fopencookie(3)--opening a custom stream
+
+forkpty(3)--tty utility functions
+
+fpathconf(3)--get configuration values for files
+
+fpclassify(3)--floating-point classification macros
+
+__fpending(3)--interfaces to stdio FILE structure
+
+fprintf(3)--formatted output conversion
+
+fpurge(3)--purge a stream
+
+__fpurge(3)--purge a stream
+
+fputc(3)--output of characters and strings
+
+fputc_unlocked(3)--non-locking stdio functions
+
+fputs(3)--output of characters and strings
+
+fputs_unlocked(3)--non-locking stdio functions
+
+fputwc(3)--write a wide character to a FILE stream
+
+fputwc_unlocked(3)--non-locking stdio functions
+
+fputws(3)--write a wide-character string to a FILE stream
+
+fputws_unlocked(3)--non-locking stdio functions
+
+fread(3)--binary stream input/output
+
+__freadable(3)--interfaces to stdio FILE structure
+
+__freading(3)--interfaces to stdio FILE structure
+
+fread_unlocked(3)--non-locking stdio functions
+
+free(3)--Allocate and free dynamic memory
+
+freeaddrinfo(3)--network address and service translation
+
+freehostent(3)--get network hostnames and addresses
+
+freeifaddrs(3)--get interface addresses
+
+freopen(3)--stream open functions
+
+frexp(3)--convert floating-point number to fractional and integral components
+
+frexpf(3)--convert floating-point number to fractional and integral components
+
+frexpl(3)--convert floating-point number to fractional and integral components
+
+fscanf(3)--input format conversion
+
+fseek(3)--reposition a stream
+
+fseeko(3)--seek to or report file position
+
+__fsetlocking(3)--interfaces to stdio FILE structure
+
+fsetpos(3)--reposition a stream
+
+ftell(3)--reposition a stream
+
+ftello(3)--seek to or report file position
+
+ftime(3)--return date and time
+
+ftok(3)--convert a pathname and a project identifier to a System V IPC key
+
+ftrylockfile(3)--lock FILE for stdio
+
+fts(3)-- traverse a file hierarchy
+
+fts_children(3)-- traverse a file hierarchy
+
+fts_close(3)-- traverse a file hierarchy
+
+fts_open(3)-- traverse a file hierarchy
+
+fts_read(3)-- traverse a file hierarchy
+
+fts_set(3)-- traverse a file hierarchy
+
+ftw(3)--file tree walk
+
+funlockfile(3)--lock FILE for stdio
+
+futimens(3)--change file timestamps with nanosecond precision
+
+futimes(3)--change file timestamps
+
+fwide(3)--set and determine the orientation of a FILE stream
+
+fwprintf(3)--formatted wide-character output conversion
+
+__fwritable(3)--interfaces to stdio FILE structure
+
+fwrite(3)--binary stream input/output
+
+fwrite_unlocked(3)--non-locking stdio functions
+
+__fwriting(3)--interfaces to stdio FILE structure
+
+gai_strerror(3)--network address and service translation
+
+gamma(3)--(logarithm of the) gamma function
+
+gammaf(3)--(logarithm of the) gamma function
+
+gammal(3)--(logarithm of the) gamma function
+
+gcvt(3)--convert a floating-point number to a string
+
+getaddrinfo(3)--network address and service translation
+
+getaliasbyname(3)--read an alias entry
+
+getaliasbyname_r(3)--read an alias entry
+
+getaliasent(3)--read an alias entry
+
+getaliasent_r(3)--read an alias entry
+
+getc(3)--input of characters and strings
+
+getchar(3)--input of characters and strings
+
+getchar_unlocked(3)--non-locking stdio functions
+
+getc_unlocked(3)--non-locking stdio functions
+
+get_current_dir_name(3)--Get current working directory
+
+getcwd(3)--Get current working directory
+
+getdate(3)--convert a date-plus-time string to broken-down time
+
+getdate_err(3)--convert a date-plus-time string to broken-down time
+
+getdate_r(3)--convert a date-plus-time string to broken-down time
+
+getdelim(3)--delimited string input
+
+getdirentries(3)--get directory entries in a file system-independent format
+
+getenv(3)--get an environment variable
+
+getfsent(3)--handle fstab entries
+
+getfsfile(3)--handle fstab entries
+
+getfsspec(3)--handle fstab entries
+
+getgrent(3)--get group file entry
+
+getgrent_r(3)--get group file entry reentrantly
+
+getgrgid(3)--get group file entry
+
+getgrgid_r(3)--get group file entry
+
+getgrnam(3)--get group file entry
+
+getgrnam_r(3)--get group file entry
+
+getgrouplist(3)--get list of groups to which a user belongs
+
+gethostbyaddr(3)--get network host entry
+
+gethostbyaddr_r(3)--get network host entry
+
+gethostbyname(3)--get network host entry
+
+gethostbyname2(3)--get network host entry
+
+gethostbyname2_r(3)--get network host entry
+
+gethostbyname_r(3)--get network host entry
+
+gethostent(3)--get network host entry
+
+gethostent_r(3)--get network host entry
+
+gethostid(3)--get or set the unique identifier of the current host
+
+getifaddrs(3)--get interface addresses
+
+getipnodebyaddr(3)--get network hostnames and addresses
+
+getipnodebyname(3)--get network hostnames and addresses
+
+getline(3)--delimited string input
+
+getloadavg(3)--get system load averages
+
+getlogin(3)--get username
+
+getlogin_r(3)--get username
+
+getmntent(3)--get file system descriptor file entry
+
+getmntent_r(3)--get file system descriptor file entry
+
+get_myaddress(3)--library routines for remote procedure calls
+
+getnameinfo(3)--address-to-name translation in protocol-independent manner
+
+getnetbyaddr(3)--get network entry
+
+getnetbyaddr_r(3)--get network entry (reentrant)
+
+getnetbyname(3)--get network entry
+
+getnetbyname_r(3)--get network entry (reentrant)
+
+getnetent(3)--get network entry
+
+getnetent_r(3)--get network entry (reentrant)
+
+getnetgrent(3)--handle network group entries
+
+getnetgrent_r(3)--handle network group entries
+
+getopt(3)--Parse command-line options
+
+getopt_long(3)--Parse command-line options
+
+getopt_long_only(3)--Parse command-line options
+
+getpass(3)--get a password
+
+getprotobyname(3)--get protocol entry
+
+getprotobyname_r(3)--get protocol entry (reentrant)
+
+getprotobynumber(3)--get protocol entry
+
+getprotobynumber_r(3)--get protocol entry (reentrant)
+
+getprotoent(3)--get protocol entry
+
+getprotoent_r(3)--get protocol entry (reentrant)
+
+getpt(3)--open the pseudo-terminal master (PTM)
+
+getpw(3)--Re-construct password line entry
+
+getpwent(3)--get password file entry
+
+getpwent_r(3)--get passwd file entry reentrantly
+
+getpwnam(3)--get password file entry
+
+getpwnam_r(3)--get password file entry
+
+getpwuid(3)--get password file entry
+
+getpwuid_r(3)--get password file entry
+
+getrpcbyname(3)--get RPC entry
+
+getrpcbyname_r(3)--get RPC entry (reentrant)
+
+getrpcbynumber(3)--get RPC entry
+
+getrpcbynumber_r(3)--get RPC entry (reentrant)
+
+getrpcent(3)--get RPC entry
+
+getrpcent_r(3)--get RPC entry (reentrant)
+
+getrpcport(3)--get RPC port number
+
+gets(3)--input of characters and strings
+
+getservbyname(3)--get service entry
+
+getservbyname_r(3)--get service entry (reentrant)
+
+getservbyport(3)--get service entry
+
+getservbyport_r(3)--get service entry (reentrant)
+
+getservent(3)--get service entry
+
+getservent_r(3)--get service entry (reentrant)
+
+getspent(3)--get shadow password file entry
+
+getspent_r(3)--get shadow password file entry
+
+getspnam(3)--get shadow password file entry
+
+getspnam_r(3)--get shadow password file entry
+
+getsubopt(3)--parse suboption arguments from a string
+
+getttyent(3)--get ttys file entry
+
+getttynam(3)--get ttys file entry
+
+getumask(3)--get file creation mask
+
+getusershell(3)--get permitted user shells
+
+getutent(3)--access utmp file entries
+
+getutent_r(3)--access utmp file entries
+
+getutid(3)--access utmp file entries
+
+getutid_r(3)--access utmp file entries
+
+getutline(3)--access utmp file entries
+
+getutline_r(3)--access utmp file entries
+
+getutmp(3)--copy utmp structure to utmpx, and vice versa
+
+getutmpx(3)--copy utmp structure to utmpx, and vice versa
+
+getutxent(3)--access utmp file entries
+
+getutxid(3)--access utmp file entries
+
+getutxline(3)--access utmp file entries
+
+getw(3)--input and output of words (ints)
+
+getwc(3)--read a wide character from a FILE stream
+
+getwchar(3)--read a wide character from standard input
+
+getwchar_unlocked(3)--non-locking stdio functions
+
+getwc_unlocked(3)--non-locking stdio functions
+
+getwd(3)--Get current working directory
+
+glob(3)--find pathnames matching a pattern, free memory from glob()
+
+globfree(3)--find pathnames matching a pattern, free memory from glob()
+
+gmtime(3)--transform date and time to broken-down time or ASCII
+
+gmtime_r(3)--transform date and time to broken-down time or ASCII
+
+gnu_dev_major(3)--manage a device number
+
+gnu_dev_makedev(3)--manage a device number
+
+gnu_dev_minor(3)--manage a device number
+
+gnu_get_libc_release(3)--get glibc version and release
+
+gnu_get_libc_version(3)--get glibc version and release
+
+grantpt(3)--grant access to the slave pseudo-terminal
+
+gsignal(3)--software signal facility
+
+hash(3)--hash database access method
+
+hasmntopt(3)--get file system descriptor file entry
+
+hcreate(3)--hash table management
+
+hcreate_r(3)--hash table management
+
+hdestroy(3)--hash table management
+
+hdestroy_r(3)--hash table management
+
+h_errno(3)--get network host entry
+
+herror(3)--get network host entry
+
+hsearch(3)--hash table management
+
+hsearch_r(3)--hash table management
+
+hstrerror(3)--get network host entry
+
+htobe16(3)--convert values between host and big-/little-endian byte order
+
+htobe32(3)--convert values between host and big-/little-endian byte order
+
+htobe64(3)--convert values between host and big-/little-endian byte order
+
+htole16(3)--convert values between host and big-/little-endian byte order
+
+htole32(3)--convert values between host and big-/little-endian byte order
+
+htole64(3)--convert values between host and big-/little-endian byte order
+
+htonl(3)--convert values between host and network byte order
+
+htons(3)--convert values between host and network byte order
+
+HUGE_VAL(3)--floating-point constants
+
+HUGE_VALF(3)--floating-point constants
+
+HUGE_VALL(3)--floating-point constants
+
+hypot(3)--Euclidean distance function
+
+hypotf(3)--Euclidean distance function
+
+hypotl(3)--Euclidean distance function
+
+iconv(3)--perform character set conversion
+
+iconv_close(3)--deallocate descriptor for character set conversion
+
+iconv_open(3)--allocate descriptor for character set conversion
+
+ilogb(3)--get integer exponent of a floating-point value
+
+ilogbf(3)--get integer exponent of a floating-point value
+
+ilogbl(3)--get integer exponent of a floating-point value
+
+imaxabs(3)--compute the absolute value of an integer
+
+imaxdiv(3)--compute quotient and remainder of an integer division
+
+index(3)--locate character in string
+
+inet(3)--Internet address manipulation routines
+
+inet_addr(3)--Internet address manipulation routines
+
+inet_aton(3)--Internet address manipulation routines
+
+inet_lnaof(3)--Internet address manipulation routines
+
+inet_makeaddr(3)--Internet address manipulation routines
+
+inet_netof(3)--Internet address manipulation routines
+
+inet_network(3)--Internet address manipulation routines
+
+inet_ntoa(3)--Internet address manipulation routines
+
+inet_ntop(3)--convert IPv4 and IPv6 addresses from binary to text form
+
+inet_pton(3)--convert IPv4 and IPv6 addresses from text to binary form
+
+INFINITY(3)--floating-point constants
+
+infnan(3)--deal with infinite or not-a-number (NaN) result
+
+initgroups(3)--initialize the supplementary group access list
+
+initstate(3)--random number generator
+
+initstate_r(3)--reentrant random number generator
+
+innetgr(3)--handle network group entries
+
+insque(3)--insert/remove an item from a queue
+
+intro(3)--Introduction to library functions
+
+iruserok(3)--routines for returning a stream to a remote command
+
+isalnum(3)--character classification routines
+
+isalpha(3)--character classification routines
+
+isascii(3)--character classification routines
+
+isatty(3)--test whether a file descriptor refers to a terminal
+
+isblank(3)--character classification routines
+
+iscntrl(3)--character classification routines
+
+isdigit(3)--character classification routines
+
+isfinite(3)--floating-point classification macros
+
+isgraph(3)--character classification routines
+
+isgreater(3)--floating-point relational tests without exception for NaN
+
+isgreaterequal(3)--floating-point relational tests without exception for NaN
+
+isinf(3)--floating-point classification macros
+
+isinff(3)--BSD floating-point classification functions
+
+isinfl(3)--BSD floating-point classification functions
+
+isless(3)--floating-point relational tests without exception for NaN
+
+islessequal(3)--floating-point relational tests without exception for NaN
+
+islessgreater(3)--floating-point relational tests without exception for NaN
+
+islower(3)--character classification routines
+
+isnan(3)--floating-point classification macros
+
+isnanf(3)--BSD floating-point classification functions
+
+isnanl(3)--BSD floating-point classification functions
+
+isnormal(3)--floating-point classification macros
+
+isprint(3)--character classification routines
+
+ispunct(3)--character classification routines
+
+isspace(3)--character classification routines
+
+isunordered(3)--floating-point relational tests without exception for NaN
+
+isupper(3)--character classification routines
+
+iswalnum(3)--test for alphanumeric wide character
+
+iswalpha(3)--test for alphabetic wide character
+
+iswblank(3)--test for whitespace wide character
+
+iswcntrl(3)--test for control wide character
+
+iswctype(3)--wide-character classification
+
+iswdigit(3)--test for decimal digit wide character
+
+iswgraph(3)--test for graphic wide character
+
+iswlower(3)--test for lowercase wide character
+
+iswprint(3)--test for printing wide character
+
+iswpunct(3)--test for punctuation or symbolic wide character
+
+iswspace(3)--test for whitespace wide character
+
+iswupper(3)--test for uppercase wide character
+
+iswxdigit(3)--test for hexadecimal digit wide character
+
+isxdigit(3)--character classification routines
+
+j0(3)--Bessel functions of the first kind
+
+j0f(3)--Bessel functions of the first kind
+
+j0l(3)--Bessel functions of the first kind
+
+j1(3)--Bessel functions of the first kind
+
+j1f(3)--Bessel functions of the first kind
+
+j1l(3)--Bessel functions of the first kind
+
+jn(3)--Bessel functions of the first kind
+
+jnf(3)--Bessel functions of the first kind
+
+jnl(3)--Bessel functions of the first kind
+
+jrand48(3)--generate uniformly distributed pseudo-random numbers
+
+jrand48_r(3)--generate uniformly distributed pseudo-random numbers reentrantly
+
+key_decryptsession(3)--interfaces to rpc keyserver daemon
+
+key_encryptsession(3)--interfaces to rpc keyserver daemon
+
+key_gendes(3)--interfaces to rpc keyserver daemon
+
+key_secretkey_is_set(3)--interfaces to rpc keyserver daemon
+
+key_setsecret(3)--interfaces to rpc keyserver daemon
+
+klogctl(3)--read and/or clear kernel message ring buffer; set console_loglevel
+
+l64a(3)--convert between long and base-64
+
+labs(3)--compute the absolute value of an integer
+
+lckpwdf(3)--get shadow password file entry
+
+lcong48(3)--generate uniformly distributed pseudo-random numbers
+
+lcong48_r(3)--generate uniformly distributed pseudo-random numbers reentrantly
+
+ldexp(3)--multiply floating-point number by integral power of 2
+
+ldexpf(3)--multiply floating-point number by integral power of 2
+
+ldexpl(3)--multiply floating-point number by integral power of 2
+
+ldiv(3)--compute quotient and remainder of an integer division
+
+le16toh(3)--convert values between host and big-/little-endian byte order
+
+le32toh(3)--convert values between host and big-/little-endian byte order
+
+le64toh(3)--convert values between host and big-/little-endian byte order
+
+lfind(3)--linear search of an array
+
+lgamma(3)--log gamma function
+
+lgammaf(3)--log gamma function
+
+lgammaf_r(3)--log gamma function
+
+lgammal(3)--log gamma function
+
+lgammal_r(3)--log gamma function
+
+lgamma_r(3)--log gamma function
+
+llabs(3)--compute the absolute value of an integer
+
+lldiv(3)--compute quotient and remainder of an integer division
+
+llrint(3)--round to nearest integer
+
+llrintf(3)--round to nearest integer
+
+llrintl(3)--round to nearest integer
+
+llround(3)--round to nearest integer, away from zero
+
+llroundf(3)--round to nearest integer, away from zero
+
+llroundl(3)--round to nearest integer, away from zero
+
+localeconv(3)--get numeric formatting information
+
+localtime(3)--transform date and time to broken-down time or ASCII
+
+localtime_r(3)--transform date and time to broken-down time or ASCII
+
+lockf(3)--apply, test or remove a POSIX lock on an open file
+
+log(3)--natural logarithmic function
+
+log10(3)-- base-10 logarithmic function
+
+log10f(3)-- base-10 logarithmic function
+
+log10l(3)-- base-10 logarithmic function
+
+log1p(3)-- logarithm of 1 plus argument
+
+log1pf(3)-- logarithm of 1 plus argument
+
+log1pl(3)-- logarithm of 1 plus argument
+
+log2(3)--base-2 logarithmic function
+
+log2f(3)--base-2 logarithmic function
+
+log2l(3)--base-2 logarithmic function
+
+logb(3)--get exponent of a floating-point value
+
+logbf(3)--get exponent of a floating-point value
+
+logbl(3)--get exponent of a floating-point value
+
+logf(3)--natural logarithmic function
+
+login(3)--write utmp and wtmp entries
+
+login_tty(3)--tty utility functions
+
+logl(3)--natural logarithmic function
+
+logout(3)--write utmp and wtmp entries
+
+logwtmp(3)--append an entry to the wtmp file
+
+longjmp(3)--non-local jump to a saved stack context
+
+lrand48(3)--generate uniformly distributed pseudo-random numbers
+
+lrand48_r(3)--generate uniformly distributed pseudo-random numbers reentrantly
+
+lrint(3)--round to nearest integer
+
+lrintf(3)--round to nearest integer
+
+lrintl(3)--round to nearest integer
+
+lround(3)--round to nearest integer, away from zero
+
+lroundf(3)--round to nearest integer, away from zero
+
+lroundl(3)--round to nearest integer, away from zero
+
+lsearch(3)--linear search of an array
+
+lseek64(3)--reposition 64-bit read/write file offset
+
+lutimes(3)--change file timestamps
+
+major(3)--manage a device number
+
+makecontext(3)--manipulate user context
+
+makedev(3)--manage a device number
+
+malloc(3)--Allocate and free dynamic memory
+
+malloc_hook(3)--malloc debugging variables
+
+__malloc_hook(3)--malloc debugging variables
+
+matherr(3)--SVID math library exception handling
+
+MB_CUR_MAX(3)--maximum length of a multibyte character in the current locale
+
+mblen(3)--determine number of bytes in next multibyte character
+
+MB_LEN_MAX(3)--maximum multibyte length of a character across all locales
+
+mbrlen(3)--determine number of bytes in next multibyte character
+
+mbrtowc(3)--convert a multibyte sequence to a wide character
+
+mbsinit(3)--test for initial shift state
+
+mbsnrtowcs(3)--convert a multibyte string to a wide-character string
+
+mbsrtowcs(3)--convert a multibyte string to a wide-character string
+
+mbstowcs(3)--convert a multibyte string to a wide-character string
+
+mbtowc(3)--convert a multibyte sequence to a wide character
+
+memalign(3)--Allocate aligned memory
+
+memccpy(3)--copy memory area
+
+memchr(3)--scan memory for a character
+
+memcmp(3)--compare memory areas
+
+memcpy(3)--copy memory area
+
+memfrob(3)--frobnicate (encrypt) a memory area
+
+memmem(3)--locate a substring
+
+memmove(3)--copy memory area
+
+mempcpy(3)--copy memory area
+
+memrchr(3)--scan memory for a character
+
+memset(3)--fill memory with a constant byte
+
+minor(3)--manage a device number
+
+mkdtemp(3)--create a unique temporary directory
+
+mkfifo(3)--make a FIFO special file (a named pipe)
+
+mkfifoat(3)--make a FIFO (named pipe) relative to a directory file descriptor
+
+mkostemp(3)--create a unique temporary file
+
+mkstemp(3)--create a unique temporary file
+
+mktemp(3)--make a unique temporary filename
+
+mktime(3)--transform date and time to broken-down time or ASCII
+
+mmap64(3)--map files or devices into memory
+
+modf(3)--extract signed integral and fractional values from floating-point number
+
+modff(3)--extract signed integral and fractional values from floating-point number
+
+modfl(3)--extract signed integral and fractional values from floating-point number
+
+mpool(3)--shared memory buffer pool
+
+mq_close(3)--close a message queue descriptor
+
+mq_getattr(3)--get/set message queue attributes
+
+mq_notify(3)--register for notification when a message is available
+
+mq_open(3)--open a message queue
+
+mq_receive(3)--receive a message from a message queue
+
+mq_send(3)--send a message to a message queue
+
+mq_setattr(3)--get/set message queue attributes
+
+mq_timedreceive(3)--receive a message from a message queue
+
+mq_timedsend(3)--send a message to a message queue
+
+mq_unlink(3)--remove a message queue
+
+mrand48(3)--generate uniformly distributed pseudo-random numbers
+
+mrand48_r(3)--generate uniformly distributed pseudo-random numbers reentrantly
+
+mtrace(3)--malloc debugging
+
+muntrace(3)--malloc debugging
+
+NAN(3)--floating-point constants
+
+nan(3)--return 'Not a Number'
+
+nanf(3)--return 'Not a Number'
+
+nanl(3)--return 'Not a Number'
+
+nearbyint(3)--round to nearest integer
+
+nearbyintf(3)--round to nearest integer
+
+nearbyintl(3)--round to nearest integer
+
+netlink(3)--Netlink macros
+
+nextafter(3)--floating-point number manipulation
+
+nextafterf(3)--floating-point number manipulation
+
+nextafterl(3)--floating-point number manipulation
+
+nexttoward(3)--floating-point number manipulation
+
+nexttowardf(3)--floating-point number manipulation
+
+nexttowardl(3)--floating-point number manipulation
+
+nftw(3)--file tree walk
+
+nl_langinfo(3)--query language and locale information
+
+nrand48(3)--generate uniformly distributed pseudo-random numbers
+
+nrand48_r(3)--generate uniformly distributed pseudo-random numbers reentrantly
+
+ntohl(3)--convert values between host and network byte order
+
+ntohs(3)--convert values between host and network byte order
+
+offsetof(3)--offset of a structure member
+
+on_exit(3)--register a function to be called at normal process termination
+
+opendir(3)--open a directory
+
+openlog(3)--send messages to the system logger
+
+open_memstream(3)-- open memory as stream
+
+openpty(3)--tty utility functions
+
+open_wmemstream(3)-- open memory as stream
+
+optarg(3)--Parse command-line options
+
+opterr(3)--Parse command-line options
+
+optind(3)--Parse command-line options
+
+optopt(3)--Parse command-line options
+
+passwd2des(3)--RFS password encryption
+
+pathconf(3)--get configuration values for files
+
+pclose(3)--pipe stream to or from a process
+
+perror(3)--print a system error message
+
+pmap_getmaps(3)--library routines for remote procedure calls
+
+pmap_getport(3)--library routines for remote procedure calls
+
+pmap_rmtcall(3)--library routines for remote procedure calls
+
+pmap_set(3)--library routines for remote procedure calls
+
+pmap_unset(3)--library routines for remote procedure calls
+
+popen(3)--pipe stream to or from a process
+
+posix_fallocate(3)--allocate file space
+
+posix_memalign(3)--Allocate aligned memory
+
+posix_openpt(3)--open a pseudo-terminal device
+
+pow(3)--power functions
+
+pow10(3)--base-10 power functions
+
+pow10f(3)--base-10 power functions
+
+pow10l(3)--base-10 power functions
+
+powf(3)--power functions
+
+powl(3)--power functions
+
+printf(3)--formatted output conversion
+
+profil(3)--execution time profile
+
+program_invocation_name(3)-- obtain name used to invoke calling program
+
+program_invocation_short_name(3)-- obtain name used to invoke calling program
+
+psignal(3)--print signal message
+
+pthread_attr_destroy(3)--initialize and destroy thread attributes object
+
+pthread_attr_getaffinity_np(3)--set/get CPU affinity attribute in thread attributes object
+
+pthread_attr_getdetachstate(3)--set/get detach state attribute in thread attributes object
+
+pthread_attr_getguardsize(3)--set/get guard size attribute in thread attributes object
+
+pthread_attr_getinheritsched(3)--set/get inherit scheduler attribute in thread attributes object
+
+pthread_attr_getschedparam(3)--set/get scheduling parameter attributes in thread attributes object
+
+pthread_attr_getschedpolicy(3)--set/get scheduling policy attribute in thread attributes object
+
+pthread_attr_getscope(3)--set/get contention scope attribute in thread attributes object
+
+pthread_attr_getstack(3)--set/get stack attributes in thread attributes object
+
+pthread_attr_getstackaddr(3)--set/get stack address attribute in thread attributes object
+
+pthread_attr_getstacksize(3)--set/get stack size attribute in thread attributes object
+
+pthread_attr_init(3)--initialize and destroy thread attributes object
+
+pthread_attr_setaffinity_np(3)--set/get CPU affinity attribute in thread attributes object
+
+pthread_attr_setdetachstate(3)--set/get detach state attribute in thread attributes object
+
+pthread_attr_setguardsize(3)--set/get guard size attribute in thread attributes object
+
+pthread_attr_setinheritsched(3)--set/get inherit scheduler attribute in thread attributes object
+
+pthread_attr_setschedparam(3)--set/get scheduling parameter attributes in thread attributes object
+
+pthread_attr_setschedpolicy(3)--set/get scheduling policy attribute in thread attributes object
+
+pthread_attr_setscope(3)--set/get contention scope attribute in thread attributes object
+
+pthread_attr_setstack(3)--set/get stack attributes in thread attributes object
+
+pthread_attr_setstackaddr(3)--set/get stack address attribute in thread attributes object
+
+pthread_attr_setstacksize(3)--set/get stack size attribute in thread attributes object
+
+pthread_cancel(3)--send a cancellation request to a thread
+
+pthread_cleanup_pop(3)--push and pop thread cancellation clean-up handlers
+
+pthread_cleanup_pop_restore_np(3)--push and pop thread cancellation clean-up handlers while saving cancelability type
+
+pthread_cleanup_push(3)--push and pop thread cancellation clean-up handlers
+
+pthread_cleanup_push_defer_np(3)--push and pop thread cancellation clean-up handlers while saving cancelability type
+
+pthread_create(3)--create a new thread
+
+pthread_detach(3)--detach a thread
+
+pthread_equal(3)--compare thread IDs
+
+pthread_exit(3)--terminate calling thread
+
+pthread_getaffinity_np(3)--set/get CPU affinity of a thread
+
+pthread_getattr_np(3)--get attributes of created thread
+
+pthread_getconcurrency(3)--set/get the concurrency level
+
+pthread_getcpuclockid(3)--retrieve ID of a thread's CPU time clock
+
+pthread_getschedparam(3)--set/get scheduling policy and parameters of a thread
+
+pthread_join(3)--join with a terminated thread
+
+pthread_kill(3)--send a signal to a thread
+
+pthread_kill_other_threads_np(3)--terminate all other threads in process
+
+pthread_self(3)--obtain ID of the calling thread
+
+pthread_setaffinity_np(3)--set/get CPU affinity of a thread
+
+pthread_setcancelstate(3)--set cancelability state and type
+
+pthread_setcanceltype(3)--set cancelability state and type
+
+pthread_setconcurrency(3)--set/get the concurrency level
+
+pthread_setschedparam(3)--set/get scheduling policy and parameters of a thread
+
+pthread_setschedprio(3)--set scheduling priority of a thread
+
+pthread_sigmask(3)--examine and change mask of blocked signals
+
+pthread_testcancel(3)--request delivery of any pending cancellation request
+
+pthread_timedjoin_np(3)--try to join with a terminated thread
+
+pthread_tryjoin_np(3)--try to join with a terminated thread
+
+pthread_yield(3)--yield the processor
+
+ptsname(3)--get the name of the slave pseudo-terminal
+
+ptsname_r(3)--get the name of the slave pseudo-terminal
+
+putc(3)--output of characters and strings
+
+putchar(3)--output of characters and strings
+
+putchar_unlocked(3)--non-locking stdio functions
+
+putc_unlocked(3)--non-locking stdio functions
+
+putenv(3)--change or add an environment variable
+
+putgrent(3)--write a group database entry to a file
+
+putpwent(3)--write a password file entry
+
+puts(3)--output of characters and strings
+
+putspent(3)--get shadow password file entry
+
+pututline(3)--access utmp file entries
+
+pututxline(3)--access utmp file entries
+
+putw(3)--input and output of words (ints)
+
+putwc(3)--write a wide character to a FILE stream
+
+putwchar(3)--write a wide character to standard output
+
+putwchar_unlocked(3)--non-locking stdio functions
+
+putwc_unlocked(3)--non-locking stdio functions
+
+qecvt(3)--convert a floating-point number to a string
+
+qecvt_r(3)--convert a floating-point number to a string
+
+qfcvt(3)--convert a floating-point number to a string
+
+qfcvt_r(3)--convert a floating-point number to a string
+
+qgcvt(3)--convert a floating-point number to a string
+
+qsort(3)--sorts an array
+
+queue(3)--implementations of lists, tail queues, and circular queues
+
+raise(3)--send a signal to the caller
+
+rand(3)--pseudo-random number generator
+
+random(3)--random number generator
+
+random_r(3)--reentrant random number generator
+
+rand_r(3)--pseudo-random number generator
+
+rawmemchr(3)--scan memory for a character
+
+rcmd(3)--routines for returning a stream to a remote command
+
+readdir(3)--read a directory
+
+readdir_r(3)--read a directory
+
+realloc(3)--Allocate and free dynamic memory
+
+realpath(3)--return the canonicalized absolute pathname
+
+recno(3)--record number database access method
+
+re_comp(3)--BSD regex functions
+
+re_exec(3)--BSD regex functions
+
+regcomp(3)--POSIX regex functions
+
+regerror(3)--POSIX regex functions
+
+regex(3)--POSIX regex functions
+
+regexec(3)--POSIX regex functions
+
+regfree(3)--POSIX regex functions
+
+registerrpc(3)--library routines for remote procedure calls
+
+remainder(3)-- floating-point remainder function
+
+remainderf(3)-- floating-point remainder function
+
+remainderl(3)-- floating-point remainder function
+
+remove(3)--remove a file or directory
+
+remque(3)--insert/remove an item from a queue
+
+remquo(3)--remainder and part of quotient
+
+remquof(3)--remainder and part of quotient
+
+remquol(3)--remainder and part of quotient
+
+res_init(3)--resolver routines
+
+res_mkquery(3)--resolver routines
+
+resolver(3)--resolver routines
+
+res_query(3)--resolver routines
+
+res_querydomain(3)--resolver routines
+
+res_search(3)--resolver routines
+
+res_send(3)--resolver routines
+
+rewind(3)--reposition a stream
+
+rewinddir(3)--reset directory stream
+
+rexec(3)--return stream to a remote command
+
+rindex(3)--locate character in string
+
+rint(3)--round to nearest integer
+
+rintf(3)--round to nearest integer
+
+rintl(3)--round to nearest integer
+
+round(3)--round to nearest integer, away from zero
+
+roundf(3)--round to nearest integer, away from zero
+
+roundl(3)--round to nearest integer, away from zero
+
+rpc(3)--library routines for remote procedure calls
+
+rpmatch(3)--determine if the answer to a question is affirmative or negative
+
+rresvport(3)--routines for returning a stream to a remote command
+
+rtime(3)--get time from a remote machine
+
+rtnetlink(3)--macros to manipulate rtnetlink messages
+
+ruserok(3)--routines for returning a stream to a remote command
+
+scalb(3)--multiply floating-point number by integral power of radix (OBSOLETE)
+
+scalbf(3)--multiply floating-point number by integral power of radix (OBSOLETE)
+
+scalbl(3)--multiply floating-point number by integral power of radix (OBSOLETE)
+
+scalbln(3)--multiply floating-point number by integral power of radix
+
+scalblnf(3)--multiply floating-point number by integral power of radix
+
+scalblnl(3)--multiply floating-point number by integral power of radix
+
+scalbn(3)--multiply floating-point number by integral power of radix
+
+scalbnf(3)--multiply floating-point number by integral power of radix
+
+scalbnl(3)--multiply floating-point number by integral power of radix
+
+scandir(3)--scan a directory for matching entries
+
+scanf(3)--input format conversion
+
+sched_getcpu(3)--determine CPU on which the calling thread is running
+
+seed48(3)--generate uniformly distributed pseudo-random numbers
+
+seed48_r(3)--generate uniformly distributed pseudo-random numbers reentrantly
+
+seekdir(3)--set the position of the next readdir() call in the directory stream.
+
+sem_close(3)--close a named semaphore
+
+sem_destroy(3)--destroy an unnamed semaphore
+
+sem_getvalue(3)--get the value of a semaphore
+
+sem_init(3)--initialize an unnamed semaphore
+
+sem_open(3)--initialize and open a named semaphore
+
+sem_post(3)--unlock a semaphore
+
+sem_timedwait(3)--lock a semaphore
+
+sem_trywait(3)--lock a semaphore
+
+sem_unlink(3)--remove a named semaphore
+
+sem_wait(3)--lock a semaphore
+
+setaliasent(3)--read an alias entry
+
+setbuf(3)--stream buffering operations
+
+setbuffer(3)--stream buffering operations
+
+setenv(3)--change or add an environment variable
+
+__setfpucw(3)--set FPU control word on i386 architecture (obsolete)
+
+setfsent(3)--handle fstab entries
+
+setgrent(3)--get group file entry
+
+sethostent(3)--get network host entry
+
+sethostid(3)--get or set the unique identifier of the current host
+
+setjmp(3)--save stack context for non-local goto
+
+setkey(3)--encrypt 64-bit messages
+
+setkey_r(3)--encrypt 64-bit messages
+
+setlinebuf(3)--stream buffering operations
+
+setlocale(3)--set the current locale
+
+setlogmask(3)--set log priority mask
+
+setmntent(3)--get file system descriptor file entry
+
+setnetent(3)--get network entry
+
+setnetgrent(3)--handle network group entries
+
+setprotoent(3)--get protocol entry
+
+setpwent(3)--get password file entry
+
+setrpcent(3)--get RPC entry
+
+setservent(3)--get service entry
+
+setspent(3)--get shadow password file entry
+
+setstate(3)--random number generator
+
+setstate_r(3)--reentrant random number generator
+
+setttyent(3)--get ttys file entry
+
+setusershell(3)--get permitted user shells
+
+setutent(3)--access utmp file entries
+
+setutxent(3)--access utmp file entries
+
+setvbuf(3)--stream buffering operations
+
+sgetspent(3)--get shadow password file entry
+
+sgetspent_r(3)--get shadow password file entry
+
+shm_open(3)--Create/open or unlink POSIX shared memory objects
+
+shm_unlink(3)--Create/open or unlink POSIX shared memory objects
+
+sigaddset(3)--POSIX signal set operations.
+
+sigandset(3)--POSIX signal set operations.
+
+sigblock(3)--BSD signal API
+
+sigdelset(3)--POSIX signal set operations.
+
+sigemptyset(3)--POSIX signal set operations.
+
+sigfillset(3)--POSIX signal set operations.
+
+siggetmask(3)--BSD signal API
+
+sighold(3)--System V signal API
+
+sigignore(3)--System V signal API
+
+siginterrupt(3)--allow signals to interrupt system calls
+
+sigisemptyset(3)--POSIX signal set operations.
+
+sigismember(3)--POSIX signal set operations.
+
+siglongjmp(3)--non-local jump to a saved stack context
+
+sigmask(3)--BSD signal API
+
+signbit(3)--test sign of a real floating-point number
+
+signgam(3)--log gamma function
+
+significand(3)--get mantissa of floating-point number
+
+significandf(3)--get mantissa of floating-point number
+
+significandl(3)--get mantissa of floating-point number
+
+sigorset(3)--POSIX signal set operations.
+
+sigpause(3)--atomically release blocked signals and wait for interrupt
+
+sigrelse(3)--System V signal API
+
+sigset(3)--System V signal API
+
+sigsetjmp(3)--save stack context for non-local goto
+
+sigsetmask(3)--BSD signal API
+
+sigsetops(3)--POSIX signal set operations.
+
+sigvec(3)--BSD signal API
+
+sigwait(3)--wait for a signal
+
+sin(3)--sine function
+
+sincos(3)--calculate sin and cos simultaneously
+
+sincosf(3)--calculate sin and cos simultaneously
+
+sincosl(3)--calculate sin and cos simultaneously
+
+sinf(3)--sine function
+
+sinh(3)--hyperbolic sine function
+
+sinhf(3)--hyperbolic sine function
+
+sinhl(3)--hyperbolic sine function
+
+sinl(3)--sine function
+
+sleep(3)--Sleep for the specified number of seconds
+
+snprintf(3)--formatted output conversion
+
+sockatmark(3)--determine whether socket is at out-of-band mark
+
+sprintf(3)--formatted output conversion
+
+sqrt(3)--square root function
+
+sqrtf(3)--square root function
+
+sqrtl(3)--square root function
+
+srand(3)--pseudo-random number generator
+
+srand48(3)--generate uniformly distributed pseudo-random numbers
+
+srand48_r(3)--generate uniformly distributed pseudo-random numbers reentrantly
+
+srandom(3)--random number generator
+
+srandom_r(3)--reentrant random number generator
+
+sscanf(3)--input format conversion
+
+ssignal(3)--software signal facility
+
+stdarg(3)--variable argument lists
+
+stderr(3)--standard I/O streams
+
+stdin(3)--standard I/O streams
+
+stdio(3)--standard input/output library functions
+
+stdio_ext(3)--interfaces to stdio FILE structure
+
+stdout(3)--standard I/O streams
+
+stpcpy(3)--copy a string returning a pointer to its end
+
+stpncpy(3)--copy a fixed-size string, returning a pointer to its end
+
+strcasecmp(3)--compare two strings ignoring case
+
+strcasestr(3)--locate a substring
+
+strcat(3)--concatenate two strings
+
+strchr(3)--locate character in string
+
+strchrnul(3)--locate character in string
+
+strcmp(3)--compare two strings
+
+strcoll(3)--compare two strings using the current locale
+
+strcpy(3)--copy a string
+
+strcspn(3)--search a string for a set of characters
+
+strdup(3)--duplicate a string
+
+strdupa(3)--duplicate a string
+
+strerror(3)--return string describing error number
+
+strerror_r(3)--return string describing error number
+
+strfmon(3)--convert monetary value to a string
+
+strfry(3)--randomize a string
+
+strftime(3)--format date and time
+
+string(3)--string operations
+
+strlen(3)--calculate the length of a string
+
+strncasecmp(3)--compare two strings ignoring case
+
+strncat(3)--concatenate two strings
+
+strncmp(3)--compare two strings
+
+strncpy(3)--copy a string
+
+strndup(3)--duplicate a string
+
+strndupa(3)--duplicate a string
+
+strnlen(3)--determine the length of a fixed-size string
+
+strpbrk(3)--search a string for any of a set of characters
+
+strptime(3)--convert a string representation of time to a time tm structure
+
+strrchr(3)--locate character in string
+
+strsep(3)--extract token from string
+
+strsignal(3)--return string describing signal
+
+strspn(3)--search a string for a set of characters
+
+strstr(3)--locate a substring
+
+strtod(3)--convert ASCII string to floating-point number
+
+strtof(3)--convert ASCII string to floating-point number
+
+strtoimax(3)--convert string to integer
+
+strtok(3)--extract tokens from strings
+
+strtok_r(3)--extract tokens from strings
+
+strtol(3)--convert a string to a long integer
+
+strtold(3)--convert ASCII string to floating-point number
+
+strtoll(3)--convert a string to a long integer
+
+strtoq(3)--convert a string to a long integer
+
+strtoul(3)--convert a string to an unsigned long integer
+
+strtoull(3)--convert a string to an unsigned long integer
+
+strtoumax(3)--convert string to integer
+
+strtouq(3)--convert a string to an unsigned long integer
+
+strverscmp(3)--compare two version strings
+
+strxfrm(3)--string transformation
+
+svc_destroy(3)--library routines for remote procedure calls
+
+svcerr_auth(3)--library routines for remote procedure calls
+
+svcerr_decode(3)--library routines for remote procedure calls
+
+svcerr_noproc(3)--library routines for remote procedure calls
+
+svcerr_noprog(3)--library routines for remote procedure calls
+
+svcerr_progvers(3)--library routines for remote procedure calls
+
+svcerr_systemerr(3)--library routines for remote procedure calls
+
+svcerr_weakauth(3)--library routines for remote procedure calls
+
+svcfd_create(3)--library routines for remote procedure calls
+
+svc_freeargs(3)--library routines for remote procedure calls
+
+svc_getargs(3)--library routines for remote procedure calls
+
+svc_getcaller(3)--library routines for remote procedure calls
+
+svc_getreq(3)--library routines for remote procedure calls
+
+svc_getreqset(3)--library routines for remote procedure calls
+
+svcraw_create(3)--library routines for remote procedure calls
+
+svc_register(3)--library routines for remote procedure calls
+
+svc_run(3)--library routines for remote procedure calls
+
+svc_sendreply(3)--library routines for remote procedure calls
+
+svctcp_create(3)--library routines for remote procedure calls
+
+svcudp_bufcreate(3)--library routines for remote procedure calls
+
+svcudp_create(3)--library routines for remote procedure calls
+
+svc_unregister(3)--library routines for remote procedure calls
+
+swab(3)--swap adjacent bytes
+
+swapcontext(3)--manipulate user context
+
+swprintf(3)--formatted wide-character output conversion
+
+sysconf(3)--Get configuration information at runtime
+
+sys_errlist(3)--print a system error message
+
+syslog(3)--send messages to the system logger
+
+sys_nerr(3)--print a system error message
+
+system(3)--execute a shell command
+
+sysv_signal(3)--signal handling with System V semantics
+
+tan(3)--tangent function
+
+tanf(3)--tangent function
+
+tanh(3)--hyperbolic tangent function
+
+tanhf(3)--hyperbolic tangent function
+
+tanhl(3)--hyperbolic tangent function
+
+tanl(3)--tangent function
+
+tcdrain(3)--get and set terminal attributes, line control, get and set baud rate
+
+tcflow(3)--get and set terminal attributes, line control, get and set baud rate
+
+tcflush(3)--get and set terminal attributes, line control, get and set baud rate
+
+tcgetattr(3)--get and set terminal attributes, line control, get and set baud rate
+
+tcgetpgrp(3)--get and set terminal foreground process group
+
+tcgetsid(3)--get session ID
+
+tcsendbreak(3)--get and set terminal attributes, line control, get and set baud rate
+
+tcsetattr(3)--get and set terminal attributes, line control, get and set baud rate
+
+tcsetpgrp(3)--get and set terminal foreground process group
+
+tdelete(3)--manage a binary tree
+
+tdestroy(3)--manage a binary tree
+
+telldir(3)--return current location in directory stream
+
+tempnam(3)--create a name for a temporary file
+
+termios(3)--get and set terminal attributes, line control, get and set baud rate
+
+tfind(3)--manage a binary tree
+
+tgamma(3)--true gamma function
+
+tgammaf(3)--true gamma function
+
+tgammal(3)--true gamma function
+
+timegm(3)--inverses of gmtime and localtime
+
+timelocal(3)--inverses of gmtime and localtime
+
+timeradd(3)--timeval operations
+
+timerclear(3)--timeval operations
+
+timercmp(3)--timeval operations
+
+timerisset(3)--timeval operations
+
+timersub(3)--timeval operations
+
+timezone(3)--initialize time conversion information
+
+tmpfile(3)--create a temporary file
+
+tmpnam(3)--create a name for a temporary file
+
+tmpnam_r(3)--create a name for a temporary file
+
+toascii(3)--convert character to ASCII
+
+tolower(3)--convert letter to upper or lower case
+
+toupper(3)--convert letter to upper or lower case
+
+towctrans(3)--wide-character transliteration
+
+towlower(3)--convert a wide character to lowercase
+
+towupper(3)--convert a wide character to uppercase
+
+trunc(3)--round to integer, towards zero
+
+truncf(3)--round to integer, towards zero
+
+truncl(3)--round to integer, towards zero
+
+tsearch(3)--manage a binary tree
+
+ttyname(3)--return name of a terminal
+
+ttyname_r(3)--return name of a terminal
+
+ttyslot(3)--find the slot of the current user's terminal in some file
+
+twalk(3)--manage a binary tree
+
+tzname(3)--initialize time conversion information
+
+tzset(3)--initialize time conversion information
+
+ualarm(3)--schedule signal after given number of microseconds
+
+ulckpwdf(3)--get shadow password file entry
+
+ulimit(3)--get and set user limits
+
+undocumented(3)--undocumented library functions
+
+ungetc(3)--input of characters and strings
+
+ungetwc(3)--push back a wide character onto a FILE stream
+
+unlocked_stdio(3)--non-locking stdio functions
+
+unlockpt(3)--unlock a pseudo-terminal master/slave pair
+
+unsetenv(3)--change or add an environment variable
+
+updwtmp(3)--append an entry to the wtmp file
+
+updwtmpx(3)--append an entry to the wtmp file
+
+usleep(3)--suspend execution for microsecond intervals
+
+utmpname(3)--access utmp file entries
+
+utmpxname(3)--access utmp file entries
+
+va_arg(3)--variable argument lists
+
+va_copy(3)--variable argument lists
+
+va_end(3)--variable argument lists
+
+valloc(3)--Allocate aligned memory
+
+vasprintf(3)--print to allocated string
+
+va_start(3)--variable argument lists
+
+vdprintf(3)--print to a file descriptor
+
+verr(3)--formatted error messages
+
+verrx(3)--formatted error messages
+
+versionsort(3)--scan a directory for matching entries
+
+vfprintf(3)--formatted output conversion
+
+vfscanf(3)--input format conversion
+
+vfwprintf(3)--formatted wide-character output conversion
+
+vprintf(3)--formatted output conversion
+
+vscanf(3)--input format conversion
+
+vsnprintf(3)--formatted output conversion
+
+vsprintf(3)--formatted output conversion
+
+vsscanf(3)--input format conversion
+
+vswprintf(3)--formatted wide-character output conversion
+
+vsyslog(3)--send messages to the system logger
+
+vwarn(3)--formatted error messages
+
+vwarnx(3)--formatted error messages
+
+vwprintf(3)--formatted wide-character output conversion
+
+warn(3)--formatted error messages
+
+warnx(3)--formatted error messages
+
+wcpcpy(3)--copy a wide-character string, returning a pointer to its end
+
+wcpncpy(3)--copy a fixed-size string of wide characters, returning a pointer to its end
+
+wcrtomb(3)--convert a wide character to a multibyte sequence
+
+wcscasecmp(3)--compare two wide-character strings, ignoring case
+
+wcscat(3)--concatenate two wide-character strings
+
+wcschr(3)--search a wide character in a wide-character string
+
+wcscmp(3)--compare two wide-character strings
+
+wcscpy(3)--copy a wide-character string
+
+wcscspn(3)--search a wide-character string for any of a set of wide characters
+
+wcsdup(3)--duplicate a wide-character string
+
+wcslen(3)--determine the length of a wide-character string
+
+wcsncasecmp(3)--compare two fixed-size wide-character strings, ignoring case
+
+wcsncat(3)--concatenate two wide-character strings
+
+wcsncmp(3)--compare two fixed-size wide-character strings
+
+wcsncpy(3)--copy a fixed-size string of wide characters
+
+wcsnlen(3)--determine the length of a fixed-size wide-character string
+
+wcsnrtombs(3)--convert a wide-character string to a multibyte string
+
+wcspbrk(3)--search a wide-character string for any of a set of wide characters
+
+wcsrchr(3)--search a wide character in a wide-character string
+
+wcsrtombs(3)--convert a wide-character string to a multibyte string
+
+wcsspn(3)--advance in a wide-character string, skipping any of a set of wide characters
+
+wcsstr(3)--locate a substring in a wide-character string
+
+wcstoimax(3)--convert wide-character string to integer
+
+wcstok(3)--split wide-character string into tokens
+
+wcstombs(3)--convert a wide-character string to a multibyte string
+
+wcstoumax(3)--convert wide-character string to integer
+
+wcswidth(3)--determine columns needed for a fixed-size wide-character string
+
+wctob(3)--try to represent a wide character as a single byte
+
+wctomb(3)--convert a wide character to a multibyte sequence
+
+wctrans(3)--wide-character translation mapping
+
+wctype(3)--wide-character classification
+
+wcwidth(3)--determine columns needed for a wide character
+
+wmemchr(3)--search a wide character in a wide-character array
+
+wmemcmp(3)--compare two arrays of wide-characters
+
+wmemcpy(3)--copy an array of wide-characters
+
+wmemmove(3)--copy an array of wide-characters
+
+wmempcpy(3)--copy memory area
+
+wmemset(3)--fill an array of wide-characters with a constant wide character
+
+wordexp(3)--perform word expansion like a posix-shell
+
+wordfree(3)--perform word expansion like a posix-shell
+
+wprintf(3)--formatted wide-character output conversion
+
+xcrypt(3)--RFS password encryption
+
+xdecrypt(3)--RFS password encryption
+
+xdr(3)--library routines for external data representation
+
+xdr_accepted_reply(3)--library routines for remote procedure calls
+
+xdr_array(3)--library routines for external data representation
+
+xdr_authunix_parms(3)--library routines for remote procedure calls
+
+xdr_bool(3)--library routines for external data representation
+
+xdr_bytes(3)--library routines for external data representation
+
+xdr_callhdr(3)--library routines for remote procedure calls
+
+xdr_callmsg(3)--library routines for remote procedure calls
+
+xdr_char(3)--library routines for external data representation
+
+xdr_destroy(3)--library routines for external data representation
+
+xdr_double(3)--library routines for external data representation
+
+xdr_enum(3)--library routines for external data representation
+
+xdr_float(3)--library routines for external data representation
+
+xdr_free(3)--library routines for external data representation
+
+xdr_getpos(3)--library routines for external data representation
+
+xdr_inline(3)--library routines for external data representation
+
+xdr_int(3)--library routines for external data representation
+
+xdr_long(3)--library routines for external data representation
+
+xdrmem_create(3)--library routines for external data representation
+
+xdr_opaque(3)--library routines for external data representation
+
+xdr_opaque_auth(3)--library routines for remote procedure calls
+
+xdr_pmap(3)--library routines for remote procedure calls
+
+xdr_pmaplist(3)--library routines for remote procedure calls
+
+xdr_pointer(3)--library routines for external data representation
+
+xdrrec_create(3)--library routines for external data representation
+
+xdrrec_endofrecord(3)--library routines for external data representation
+
+xdrrec_eof(3)--library routines for external data representation
+
+xdrrec_skiprecord(3)--library routines for external data representation
+
+xdr_reference(3)--library routines for external data representation
+
+xdr_rejected_reply(3)--library routines for remote procedure calls
+
+xdr_replymsg(3)--library routines for remote procedure calls
+
+xdr_setpos(3)--library routines for external data representation
+
+xdr_short(3)--library routines for external data representation
+
+xdrstdio_create(3)--library routines for external data representation
+
+xdr_string(3)--library routines for external data representation
+
+xdr_u_char(3)--library routines for external data representation
+
+xdr_u_int(3)--library routines for external data representation
+
+xdr_u_long(3)--library routines for external data representation
+
+xdr_union(3)--library routines for external data representation
+
+xdr_u_short(3)--library routines for external data representation
+
+xdr_vector(3)--library routines for external data representation
+
+xdr_void(3)--library routines for external data representation
+
+xdr_wrapstring(3)--library routines for external data representation
+
+xencrypt(3)--RFS password encryption
+
+xprt_register(3)--library routines for remote procedure calls
+
+xprt_unregister(3)--library routines for remote procedure calls
+
+y0(3)--Bessel functions of the second kind
+
+y0f(3)--Bessel functions of the second kind
+
+y0l(3)--Bessel functions of the second kind
+
+y1(3)--Bessel functions of the second kind
+
+y1f(3)--Bessel functions of the second kind
+
+y1l(3)--Bessel functions of the second kind
+
+yn(3)--Bessel functions of the second kind
+
+ynf(3)--Bessel functions of the second kind
+
+ynl(3)--Bessel functions of the second kind
+
+Section 4
+
+¬† ¬† ¬† ¬†¬†
+console(4)--console terminal and virtual consoles
+
+console_codes(4)--Linux console escape and control sequences
+
+console_ioctl(4)--ioctl's for console terminal and virtual consoles
+
+cpuid(4)--x86 CPUID access device
+
+dsp56k(4)--DSP56001 interface device
+
+epoll(4)--I/O event notification facility
+
+fd(4)--floppy disk device
+
+fifo(4)--first-in first-out special file, named pipe
+
+full(4)--always full device
+
+futex(4)--Fast Userspace Locking
+
+hd(4)--MFM/IDE hard disk devices
+
+initrd(4)--boot loader initialized RAM disk
+
+intro(4)--Introduction to special files
+
+kmem(4)--system memory, kernel memory and system ports
+
+lp(4)--line printer devices
+
+mem(4)--system memory, kernel memory and system ports
+
+mouse(4)--serial mouse interface
+
+msr(4)--x86 CPU MSR access device
+
+null(4)--data sink
+
+port(4)--system memory, kernel memory and system ports
+
+ptmx(4)--pseudo-terminal master and slave
+
+pts(4)--pseudo-terminal master and slave
+
+ram(4)--ram disk device
+
+random(4)--kernel random number source devices
+
+rtc(4)--real-time clock
+
+sd(4)--Driver for SCSI Disk Drives
+
+sk98lin(4)--Marvell/SysKonnect Gigabit Ethernet driver v6.21
+
+st(4)--SCSI tape device
+
+tty(4)--controlling terminal
+
+tty_ioctl(4)--ioctls for terminals and serial lines
+
+ttyS(4)--serial terminal lines
+
+urandom(4)--kernel random number source devices
+
+vcs(4)--virtual console memory
+
+vcsa(4)--virtual console memory
+
+wavelan(4)--AT&T GIS WaveLAN ISA device driver ." ." SYNOPSIS part ."
+
+zero(4)--data sink
+
+acct(5)--process accounting file
+
+charmap(5)--character symbols to define character encodings
+
+complex(5)--basics of complex mathematics
+
+core(5)--core dump file
+
+dir_colors(5)--configuration file for dircolors(1)
+
+elf(5)--format of Executable and Linking Format (ELF) files
+
+environ(5)--user environment
+
+filesystems(5)--Linux file-system types: minix, ext, ext2, ext3, Reiserfs, XFS, JFS, xia, msdos, umsdos, vfat, proc, nfs, iso9660, hpfs, sysv, smb, ncpfs
+
+fs(5)--Linux file-system types: minix, ext, ext2, ext3, Reiserfs, XFS, JFS, xia, msdos, umsdos, vfat, proc, nfs, iso9660, hpfs, sysv, smb, ncpfs
+
+ftpusers(5)--list of users that may not log in via the FTP daemon
+
+group(5)--user group file
+
+host.conf(5)--resolver configuration file
+
+hosts(5)--The static table lookup for hostnames
+
+hosts.equiv(5)--list of hosts and users that are granted "trusted" fBrfP command access to your system
+
+intro(5)--Introduction to file formats
+
+ipc(5)--System V interprocess communication mechanisms
+
+issue(5)--pre-login message and identification file
+
+locale(5)--Describes a locale definition file
+
+motd(5)--message of the day
+
+networks(5)--network name information
+
+nologin(5)--prevent non-root users from logging into the system
+
+nscd.conf(5)--name service cache daemon configuration file
+
+nsswitch.conf(5)--System Databases and Name Service Switch configuration file
+
+numa_maps(5)--overview of Non-Uniform Memory Architecture
+
+passwd(5)--password file
+
+proc(5)--process information pseudo-file system
+
+protocols(5)--the protocols definition file
+
+resolv.conf(5)--resolver configuration file
+
+resolver(5)--resolver configuration file
+
+rpc(5)--rpc program number data base
+
+securetty(5)--file which lists ttys from which root can log in
+
+services(5)--Internet network services list
+
+shells(5)--pathnames of valid login shells
+
+slabinfo(5)--Kernel slab allocator statistics
+
+termcap(5)--terminal capability database
+
+ttytype(5)--terminal device to default terminal type mapping
+
+tzfile(5)--timezone information
+
+utmp(5)--login records
+
+utmpx(5)--login records
+
+wtmp(5)--login records
+
+intro(6)--Introduction to games
+
+armscii-8(7)--Armenian Character Set encoded in octal, decimal, and hexadecimal
+
+arp(7)--Linux ARP kernel module.
+
+ascii(7)--the ASCII character set encoded in octal, decimal, and hexadecimal
+
+boot(7)--General description of boot sequence
+
+bootparam(7)--Introduction to boot time parameters of the Linux kernel
+
+capabilities(7)--overview of Linux capabilities
+
+charsets(7)--programmer's view of character sets and internationalization
+
+complex(7)--basics of complex mathematics
+
+cp1251(7)--the CP 1251 character set encoded in octal, decimal, and hexadecimal
+
+cpuset(7)--confine processes to processor and memory node subsets
+
+credentials(7)--process identifiers
+
+ddp(7)--Linux AppleTalk protocol implementation
+
+environ(7)--user environment
+
+epoll(7)--I/O event notification facility
+
+feature_test_macros(7)--feature test macros
+
+fifo(7)--first-in first-out special file, named pipe
+
+futex(7)--Fast Userspace Locking
+
+glibc(7)--Overview of standard C libraries on Linux
+
+glob(7)--Globbing pathnames
+
+hier(7)--Description of the file system hierarchy
+
+hostname(7)--hostname resolution description
+
+icmp(7)--Linux IPv4 ICMP kernel module.
+
+inotify(7)--monitoring file system events
+
+intro(7)--Introduction to overview, conventions, and miscellany section
+
+ip(7)--Linux IPv4 protocol implementation
+
+ipv6(7)--Linux IPv6 protocol implementation
+
+iso-8859-1(7)--the ISO 8859-1 character set encoded in octal, decimal, and hexadecimal
+
+iso-8859-10(7)--the ISO 8859-10 character set encoded in octal, decimal, and hexadecimal
+
+iso-8859-11(7)--the ISO 8859-11 character set encoded in octal, decimal, and hexadecimal
+
+iso-8859-13(7)--the ISO 8859-13 character set encoded in octal, decimal, and hexadecimal
+
+iso-8859-14(7)--the ISO 8859-14 character set encoded in octal, decimal, and hexadecimal
+
+iso-8859-15(7)--the ISO 8859-15 character set encoded in octal, decimal, and hexadecimal
+
+iso-8859-16(7)--the ISO 8859-16 character set encoded in octal, decimal, and hexadecimal
+
+iso-8859-2(7)--the ISO 8859-2 character set encoded in octal, decimal, and hexadecimal
+
+iso-8859-3(7)--the ISO 8859-3 character set encoded in octal, decimal, and hexadecimal
+
+iso-8859-4(7)--the ISO 8859-4 character set encoded in octal, decimal, and hexadecimal
+
+iso-8859-5(7)--the ISO 8859-5 character set encoded in octal, decimal, and hexadecimal
+
+iso-8859-6(7)--the ISO 8859-6 character set encoded in octal, decimal, and hexadecimal
+
+iso-8859-7(7)--the ISO 8859-7 character set encoded in octal, decimal, and hexadecimal
+
+iso-8859-8(7)--the ISO 8859-8 character set encoded in octal, decimal, and hexadecimal
+
+iso-8859-9(7)--the ISO 8859-9 character set encoded in octal, decimal, and hexadecimal
+
+iso_8859-1(7)--the ISO 8859-1 character set encoded in octal, decimal, and hexadecimal
+
+iso_8859-10(7)--the ISO 8859-10 character set encoded in octal, decimal, and hexadecimal
+
+iso_8859-11(7)--the ISO 8859-11 character set encoded in octal, decimal, and hexadecimal
+
+iso_8859-13(7)--the ISO 8859-13 character set encoded in octal, decimal, and hexadecimal
+
+iso_8859-14(7)--the ISO 8859-14 character set encoded in octal, decimal, and hexadecimal
+
+iso_8859-15(7)--the ISO 8859-15 character set encoded in octal, decimal, and hexadecimal
+
+iso_8859-16(7)--the ISO 8859-16 character set encoded in octal, decimal, and hexadecimal
+
+iso_8859-2(7)--the ISO 8859-2 character set encoded in octal, decimal, and hexadecimal
+
+iso_8859-3(7)--the ISO 8859-3 character set encoded in octal, decimal, and hexadecimal
+
+iso_8859-4(7)--the ISO 8859-4 character set encoded in octal, decimal, and hexadecimal
+
+iso_8859-5(7)--the ISO 8859-5 character set encoded in octal, decimal, and hexadecimal
+
+iso_8859-6(7)--the ISO 8859-6 character set encoded in octal, decimal, and hexadecimal
+
+iso_8859-7(7)--the ISO 8859-7 character set encoded in octal, decimal, and hexadecimal
+
+iso_8859-8(7)--the ISO 8859-8 character set encoded in octal, decimal, and hexadecimal
+
+iso_8859-9(7)--the ISO 8859-9 character set encoded in octal, decimal, and hexadecimal
+
+iso_8859_1(7)--the ISO 8859-1 character set encoded in octal, decimal, and hexadecimal
+
+iso_8859_10(7)--the ISO 8859-10 character set encoded in octal, decimal, and hexadecimal
+
+iso_8859_11(7)--the ISO 8859-11 character set encoded in octal, decimal, and hexadecimal
+
+iso_8859_13(7)--the ISO 8859-13 character set encoded in octal, decimal, and hexadecimal
+
+iso_8859_14(7)--the ISO 8859-14 character set encoded in octal, decimal, and hexadecimal
+
+iso_8859_15(7)--the ISO 8859-15 character set encoded in octal, decimal, and hexadecimal
+
+iso_8859_16(7)--the ISO 8859-16 character set encoded in octal, decimal, and hexadecimal
+
+iso_8859_2(7)--the ISO 8859-2 character set encoded in octal, decimal, and hexadecimal
+
+iso_8859_3(7)--the ISO 8859-3 character set encoded in octal, decimal, and hexadecimal
+
+iso_8859_4(7)--the ISO 8859-4 character set encoded in octal, decimal, and hexadecimal
+
+iso_8859_5(7)--the ISO 8859-5 character set encoded in octal, decimal, and hexadecimal
+
+iso_8859_6(7)--the ISO 8859-6 character set encoded in octal, decimal, and hexadecimal
+
+iso_8859_7(7)--the ISO 8859-7 character set encoded in octal, decimal, and hexadecimal
+
+iso_8859_8(7)--the ISO 8859-8 character set encoded in octal, decimal, and hexadecimal
+
+iso_8859_9(7)--the ISO 8859-9 character set encoded in octal, decimal, and hexadecimal
+
+koi8-r(7)--Russian Net Character Set encoded in octal, decimal, and hexadecimal
+
+koi8-u(7)--Ukrainian Net Character Set encoded in octal, decimal, and hexadecimal
+
+latin1(7)--the ISO 8859-1 character set encoded in octal, decimal, and hexadecimal
+
+latin10(7)--the ISO 8859-16 character set encoded in octal, decimal, and hexadecimal
+
+latin2(7)--the ISO 8859-2 character set encoded in octal, decimal, and hexadecimal
+
+latin3(7)--the ISO 8859-3 character set encoded in octal, decimal, and hexadecimal
+
+latin4(7)--the ISO 8859-4 character set encoded in octal, decimal, and hexadecimal
+
+latin5(7)--the ISO 8859-9 character set encoded in octal, decimal, and hexadecimal
+
+latin6(7)--the ISO 8859-10 character set encoded in octal, decimal, and hexadecimal
+
+latin7(7)--the ISO 8859-13 character set encoded in octal, decimal, and hexadecimal
+
+latin8(7)--the ISO 8859-14 character set encoded in octal, decimal, and hexadecimal
+
+latin9(7)--the ISO 8859-15 character set encoded in octal, decimal, and hexadecimal
+
+libc(7)--Overview of standard C libraries on Linux
+
+locale(7)--Description of multi-language support
+
+mailaddr(7)--mail addressing description
+
+man-pages(7)--conventions for writing Linux man pages
+
+man(7)--macros to format man pages
+
+math_error(7)--detecting errors from mathematical functions
+
+mdoc(7)--quick reference guide for the .Nm -mdoc macro package
+
+mdoc.samples(7)--tutorial sampler for writing .Bx manuals with .Nm -mdoc
+
+mq_overview(7)--Overview of POSIX message queues
+
+netdevice(7)--Low level access to Linux network devices
+
+netlink(7)--Communication between kernel and userspace (AF_NETLINK)
+
+numa(7)--overview of Non-Uniform Memory Architecture
+
+operator(7)--C operator precedence and order of evaluation
+
+packet(7)--packet interface on device level.
+
+path_resolution(7)--find the file referred to by a filename
+
+pipe(7)--overview of pipes and FIFOs
+
+posixoptions(7)--optional parts of the POSIX standard
+
+pthreads(7)--POSIX threads
+
+pty(7)--pseudo-terminal interfaces
+
+raw(7)--Linux IPv4 raw sockets
+
+regex(7)--POSIX.2 regular expressions
+
+rtld-audit(7)--auditing API for the dynamic linker
+
+rtnetlink(7)--Linux IPv4 routing socket
+
+sem_overview(7)--Overview of POSIX semaphores
+
+shm_overview(7)--Overview of POSIX shared memory
+
+signal(7)--overview of signals
+
+socket(7)--Linux socket interface
+
+spufs(7)--the SPU file system
+
+standards(7)--C and UNIX Standards
+
+suffixes(7)--list of file suffixes
+
+svipc(7)--System V interprocess communication mechanisms
+
+symlink(7)--symbolic link handling
+
+tcp(7)--TCP protocol
+
+termio(7)--the System V terminal driver interface
+
+time(7)--overview of time and timers
+
+tis-620(7)--the ISO 8859-11 character set encoded in octal, decimal, and hexadecimal
+
+udp(7)--User Datagram Protocol for IPv4
+
+udplite(7)--Lightweight User Datagram Protocol
+
+unicode(7)--the Universal Character Set
+
+units(7)--decimal and binary prefixes
+
+unix(7)--Sockets for local interprocess communication
+
+uri(7)--uniform resource identifier (URI), including a URL or URN
+
+url('/7')--uniform resource identifier (URI), including a URL or URN
+
+urn(7)--uniform resource identifier (URI), including a URL or URN
+
+utf-8(7)--an ASCII compatible multi-byte Unicode encoding
+
+utf8(7)--an ASCII compatible multi-byte Unicode encoding
+
+x25(7)--ITU-T X.25 / ISO-8208 protocol interface.
+
+intro(8)--Introduction to administration and privileged commands
+
+ld-linux(8)--dynamic linker/loader
+
+ld-linux.so(8)--dynamic linker/loader
+
+ld.so(8)--dynamic linker/loader
+
+ldconfig(8)--configure dynamic linker run-time bindings
+
+nscd(8)--name service cache daemon
+
+sync(8)--synchronize data on disk with memory
+
+tzselect(8)--select a timezone
+
+zdump(8)--timezone dumper
+
+zic(8)--timezone compiler

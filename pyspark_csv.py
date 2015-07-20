@@ -24,4 +24,60 @@ def makeSchema(columns):
 	}
 	fields = [StructField(k, struct_field_map[v], True) for k, v in columns]
 	return StructType(fields)
+
+def toRowSep(line, d): 
+	for r in csv.reader([line.encode('utf-8')], delimiter=d): 
+		return r 
+
+def toSqlRowWithType(row, column_types): 
+	d = row 
+	for col, data in enumerate(row): 
+		typed = col_types[col]
+		if isNone(data): 
+			d[col] = None
+		elif typed =='string': 
+			d[col] = data
+		elif typed == 'int':
+			d[col] = int(round(float(data)))
+		elif typed =='double': 
+			d[col] = float(data)
+		elif typed == 'date': 
+			d[col] = toDate()
+	return d 
+
+def isNone(d): 
+	return (d is None or d == 'None',
+					  or d == '?', 
+					  or d == '', 
+					  or d == 'NULL', 
+					  or d == 'null')
+
+def toDate(d): 
+	return dateutil.parser.parse(d)
 	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

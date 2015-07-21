@@ -92,6 +92,35 @@ def getRowTypeNoDate(row):
 			d[col] = 'string'
 	return d 
 
+def reduceTypes(a,b):
+	type_order = {'string': 0, 'date': 1, 'double': 2, 'int': 3, 'none': 4 }
+	reduce_map = {'int': {0: 'string', 1: 'string', 2: 'double'}, 
+					'double': {0:'string', 1:'string'}, 'date': {0:'string'}}
+	d = a 
+	for col, a_type in enumerate(a): 
+		b_type = b[col]
+		if a_type == 'none': 
+			d[col] = b_type
+		elif b_type == 'none':
+			d[col] = a_type
+		else: 
+			order_a = type_order[a_type]
+			order_b = type_order[b_type]
+			if order_a == order_b:	
+				d[col] = a_type
+			elif order_a > order_b:
+				d[col] = reduce_map[a_type][order_b]
+			elif order_a < order_b:
+				d[col] = reduce_map[b_type][order_a]
+	return d 
+
+def evaluateType(rdd_sql, parseDate):
+	if parseDate:
+		return rdd_sql.map(getRowType).reduce(reduceTypes)
+	else: 
+		return rdd_sql.map(getRowTypeNoDate).reduce(reduceTypes)
+
+		
 
 
 

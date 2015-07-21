@@ -54,7 +54,45 @@ def isNone(d):
 
 def toDate(d): 
 	return dateutil.parser.parse(d)
-	
+
+def getRowType(row):
+	d = row 
+	for col, data in enumerate(row):
+		try: 
+			if isNone(data):
+				d[col] = 'none'
+			else: 
+				num = float(data)
+				if num.is_integer():
+					d[col] = 'int'
+				else: 
+					d[col] = 'double'
+		except: 
+			try: 
+				dt = toDate(data)
+				d[col] = 'date'
+			except:
+				dt = data	
+				d[col] = 'string'
+	return d 
+
+def getRowTypeNoDate(row):
+	d = row 
+	for col, data in enumerate(row): 
+		try: 
+			if isNone(data): 
+				d[col] = 'none'
+			else: 
+				num = float(data)
+				if num.is_integer():
+					d[col] = 'int'
+				else: 
+					d[col] = 'double'
+		except:
+			d[col] = 'string'
+	return d 
+
+
 
 
 

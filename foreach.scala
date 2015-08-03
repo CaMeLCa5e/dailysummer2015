@@ -26,10 +26,39 @@ res0: Boolean = true
 scala> fruit("potato")
 res1: Boolean = false
 
-scala> var s = Set(1, 2, 3)
-s: scala.collection.immutable.Set[Int] = Set(1, 2, 3)
-scala> s += 4
-scala> s -= 2
-scala> s 
-res2: scala.collection.immutable.Set[Int] = Set(1, 3, 4)
+// scala> var s = Set(1, 2, 3)
+// s: scala.collection.immutable.Set[Int] = Set(1, 2, 3)
+// scala> s += 4
+// scala> s -= 2
+// scala> s 
+// res2: scala.collection.immutable.Set[Int] = Set(1, 3, 4)
+
+
+scala> val s = collection.mutable.Set(1, 2, 3)
+s: scala.collection.mutable.Set[Int] = Set(1, 2, 3)
+scala> s += 4 
+res3: s.type = Set(1, 4, 3, 2)
+scala> s -= 2 
+res4: s.type = Set(1, 4, 3)
+
+scala> val myOrdering = ordering.fromLessThan[String](_ > _)
+myOrdering: scala.math.Ordering[String] = 'myString'
+
+scala> TreeSet.empty[String]
+res2: scala.collection.immutable.TreeSet[String] = TreeSet()
+
+scala> res2 + ('one', 'two', 'three', 'four')
+res3: scala.collection.immutable.TreeSet[String] = TreeSet(four, one, 
+three, two)
+
+scala> res3 range('one', 'two')
+res4: scala.collection.immutable.TreeSet[String] = TreeSet(one, three)
+scala> res3 from 'three'
+res5: scala.collection.immutable.TreeSet[String] = TreeSet(three, two)
+
+
+
+
+
+
 

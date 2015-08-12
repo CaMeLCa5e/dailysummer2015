@@ -34,4 +34,14 @@ f.next()
 f.next()
 print f.next()
 
+def memoize(fn, arg): 
+	memo = {}
+	if arg not in memo: 
+		memo[arg] = fn(arg)
+		return memo[arg]
+
+fibm = memoize(fib, 5)
+
+print fibm
+
 
